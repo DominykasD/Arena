@@ -12,13 +12,13 @@
         android:layout_height="wrap_content"
         android:text="REGISTRACIJA"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/editEmail2"
+        app:layout_constraintBottom_toTopOf="@+id/editEmailreg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edit3"
+        android:id="@+id/editPswreg"
         android:layout_width="360dp"
         android:layout_height="68dp"
         android:layout_marginBottom="216dp"
@@ -29,11 +29,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTel2"
+        app:layout_constraintTop_toBottomOf="@+id/editTel"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/buttLogin3"
+        android:id="@+id/buttRegister"
         android:layout_width="343dp"
         android:layout_height="53dp"
         android:layout_marginTop="165dp"
@@ -46,32 +46,35 @@
         app:layout_constraintVertical_bias="0.732" />
 
     <EditText
-        android:id="@+id/editTel2"
+        android:id="@+id/editTelreg"
         android:layout_width="360dp"
         android:layout_height="68dp"
-        android:layout_marginTop="364dp"
+        android:layout_marginTop="368dp"
         android:layout_weight="1"
 
         android:ems="10"
         android:hint="Telefono numeris"
         android:inputType="phone"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editEmail2"
+        android:id="@+id/editEmailreg"
         android:layout_width="360dp"
         android:layout_height="68dp"
-        android:layout_marginTop="284dp"
+        android:layout_marginTop="280dp"
         android:layout_weight="1"
 
         android:ems="10"
         android:hint="Epaštas"
+        app:layout_constraintBottom_toTopOf="@+id/editTel"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textLogin"
@@ -84,6 +87,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttLogin3"
+        app:layout_constraintTop_toBottomOf="@+id/buttRegister"
         app:layout_constraintVertical_bias="0.262" />
 </androidx.constraintlayout.widget.ConstraintLayout>

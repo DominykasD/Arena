@@ -6,30 +6,33 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/editEmailTel"
+        android:id="@+id/editEmail"
         android:layout_width="359dp"
         android:layout_height="68dp"
         android:layout_marginTop="356dp"
         android:layout_weight="1"
 
         android:ems="10"
-        android:hint="Epaštas arba telefono numeris"
+        android:hint="Epaštas"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.461"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/edit"
+        android:id="@+id/editPsw"
         android:layout_width="355dp"
         android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="44dp"
         android:ems="10"
         android:hint="Slaptažodis"
         android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/buttLogin"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editEmailTel"
+        app:layout_constraintTop_toBottomOf="@+id/editEmail"
         app:layout_constraintVertical_bias="0.075" />
 
     <Button
@@ -43,7 +46,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.732" />
+        app:layout_constraintVertical_bias="0.729" />
 
     <TextView
         android:id="@+id/textRegister"
@@ -63,7 +66,7 @@
         android:layout_height="wrap_content"
         android:text="PRISIJUNGIMAS"
         android:textSize="30dp"
-        app:layout_constraintBottom_toTopOf="@+id/editEmailTel"
+        app:layout_constraintBottom_toTopOf="@+id/editEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
