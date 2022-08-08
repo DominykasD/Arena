@@ -2,13 +2,9 @@
 An app to order food and get it delivered to your seat in a stadium.
 
 ## Current features
-Move between login and register windows. The login and register functionality still not implemented.
+Register and login to application. Data is saved in MySQL database.
 
 ### To-do
-Login
-
-Register
-
 Main menu
 
 # Set up
@@ -21,5 +17,10 @@ Android SDK: API 21: Android 5.0 (Lolipop)
 
 Java version: 1.8
 
+## Quick demo
+https://user-images.githubusercontent.com/23237769/183380488-f5076150-730c-4382-b5a7-e03d90bf038b.mp4
+
 ### Links
 XAMPP: https://www.apachefriends.org/ (Checked: 2022-08-07)
+
+
