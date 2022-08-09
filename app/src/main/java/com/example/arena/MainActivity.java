@@ -3,6 +3,7 @@ package com.example.arena;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private String URL = "http://10.0.2.2/ArenaServer/login.php";
 
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +51,11 @@ public class MainActivity extends AppCompatActivity {
         email = (EditText) findViewById(R.id.editEmail);
         password = (EditText) findViewById(R.id.editPsw);
         button = (Button) findViewById(R.id.buttLogin);
+
+        // setText for testing purposes
+        email.setText("test@arena.com");
+        password.setText("test");
+
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
