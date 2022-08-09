@@ -5,9 +5,7 @@ An app to order food and get it delivered to your seat in a stadium.
 Register and login to application. Data is saved in MySQL database.
 
 ### To-do
-Register, login option with either email or phone number. Now it is only possible to login with email.
-
-Main menu
+https://rentry.co/wyek3
 
 # Set up
 The server side is written in PHP. The instructions to set up: https://github.com/DominykasD/Arena-server
