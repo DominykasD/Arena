@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Arena</string>
+    <string name="title_profile">Mano profilis</string>
+    <string name="title_favorites">Mėgstamiausi</string>
+    <string name="title_cart">Mano krepšelis</string>
+    <string name="title_orders">Mano užsakymai</string>
+    <string name="title_discounts">Nuolaidos</string>
 </resources>
