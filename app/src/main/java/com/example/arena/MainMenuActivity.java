@@ -2,6 +2,7 @@ package com.example.arena;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
@@ -9,6 +10,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.SearchView;
 
@@ -19,6 +21,7 @@ public class MainMenuActivity extends AppCompatActivity {
     private SearchView searchView;
     private Toolbar toolbar, topAppBar;
     private AppBarConfiguration mAppBarConfiguration;
+    private DrawerLayout mDrawer;
 
 
     @Override
@@ -26,25 +29,31 @@ public class MainMenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
-        /// Searchview text
-//        searchView = (SearchView) findViewById(R.id.searchView);
-//        searchView.setQueryHint("Ką galėtume pasiūlyti?");
 
-//        toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
-//        toolbar.setNavigationContentDescription("asd");
+        // Set a Toolbar to replace Actionbar
+        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
-//        topAppBar = (Toolbar) findViewById(R.id.topAppBar);
-//        setSupportActionBar(toolbar);
-//        topAppBar.setNavigationOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
 //
-//            }
-//        });
+//        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
 
 
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // The action bar home/up action should open or close the drawer.
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                mDrawer.openDrawer(GravityCompat.START);
+                return true;
+        }
+
+        return super.onOptionsItemSelected(item);
     }
 
 }
