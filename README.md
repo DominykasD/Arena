@@ -19,12 +19,21 @@ Android SDK: API 21: Android 5.0 (Lolipop)
 Java version: 1.8
 
 ## Quick demo
+Login and registration
+
 https://user-images.githubusercontent.com/23237769/183380488-f5076150-730c-4382-b5a7-e03d90bf038b.mp4
 
 ## Screenshots
 Navigation drawer
 
-![Screenshot 2022-08-10 125659 (1)](https://user-images.githubusercontent.com/23237769/183874717-5eed4438-5f94-49cf-878a-b87565e451ac.png)
+![Screenshot 2022-08-11 134205](https://user-images.githubusercontent.com/23237769/184121916-aa2a8bc5-ec9c-46c1-bc4b-bb05b5b261c4.png)
+
+Main menu
+
+![Screenshot 2022-08-11 134215](https://user-images.githubusercontent.com/23237769/184121935-2c4f86bb-f45e-44eb-9395-c70544747d28.png)
+![Screenshot 2022-08-11 134234](https://user-images.githubusercontent.com/23237769/184121943-3580598a-7623-43bb-bc2e-4947df716c37.png)
+
+
 
 
 
