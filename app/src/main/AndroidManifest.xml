@@ -15,7 +15,7 @@
         <activity
             android:name=".MainMenuActivity"
             android:exported="false"
-            android:theme="@style/AppBar.NoActionBar" />
+            android:theme="@style/AppBar.NoActionBar"/>
         <activity
             android:name=".Register"
             android:exported="false" />

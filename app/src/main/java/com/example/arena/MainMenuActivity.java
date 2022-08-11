@@ -10,6 +10,7 @@ import androidx.navigation.ui.AppBarConfiguration;
 import androidx.navigation.ui.NavigationUI;
 
 import android.os.Bundle;
+import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.SearchView;
@@ -39,6 +40,7 @@ public class MainMenuActivity extends AppCompatActivity {
 //
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
+
 
 
 
