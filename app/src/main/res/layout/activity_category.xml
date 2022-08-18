@@ -10,6 +10,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#696969"
         android:orientation="vertical">
 
         <include
@@ -18,122 +19,11 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize" />
 
-        <androidx.cardview.widget.CardView
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent" />
 
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <androidx.constraintlayout.widget.ConstraintLayout
-                    android:layout_width="375dp"
-                    android:layout_height="150dp"
-                    app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintHorizontal_bias="0.555"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:layout_constraintVertical_bias="0.03">
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:layout_width="40dp"
-                        android:layout_height="125dp"
-                        android:background="@drawable/orange_background"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintCircleRadius="20dp"
-                        app:layout_constraintEnd_toEndOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
-
-                        <ImageView
-                            android:id="@+id/imageView15"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            app:srcCompat="@drawable/ic_minus" />
-
-                        <TextView
-                            android:id="@+id/textView21"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="8dp"
-                            android:text="0"
-                            android:textColor="#fff"
-                            android:textSize="25dp"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/imageView15" />
-
-                        <ImageView
-                            android:id="@+id/imageView16"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintEnd_toEndOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:srcCompat="@drawable/ic_add" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                    <androidx.constraintlayout.widget.ConstraintLayout
-                        android:id="@+id/constraintLayout6"
-                        android:layout_width="200dp"
-                        android:layout_height="match_parent"
-                        android:background="@drawable/food_image_empty"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toTopOf="parent">
-
-                        <ImageView
-                            android:id="@+id/imageView14"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="24dp"
-                            app:layout_constraintBottom_toBottomOf="parent"
-                            app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent"
-                            app:layout_constraintVertical_bias="0.714"
-                            app:srcCompat="@drawable/ic_favorites" />
-                    </androidx.constraintlayout.widget.ConstraintLayout>
-
-                    <TextView
-                        android:id="@+id/textView5"
-                        android:layout_width="86dp"
-                        android:layout_height="35dp"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="25dp"
-                        android:text="Patiekalo pavadinimas"
-                        android:textStyle="bold"
-                        app:layout_constraintStart_toEndOf="@+id/constraintLayout6"
-                        app:layout_constraintTop_toTopOf="@+id/constraintLayout6" />
-
-                    <TextView
-                        android:id="@+id/textView6"
-                        android:layout_width="87dp"
-                        android:layout_height="37dp"
-                        android:layout_marginStart="16dp"
-                        android:layout_marginTop="10dp"
-                        android:text="Aprašymas ir sudėtis"
-                        android:textSize="12dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/constraintLayout6"
-                        app:layout_constraintTop_toBottomOf="@+id/textView5"
-                        app:layout_constraintVertical_bias="0.0" />
-
-                    <TextView
-                        android:id="@+id/textView8"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="16dp"
-                        android:text="€ 0"
-                        android:textColor="#00695C"
-                        android:textSize="16dp"
-                        app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/constraintLayout6"
-                        app:layout_constraintTop_toBottomOf="@+id/textView6"
-                        app:layout_constraintVertical_bias="0.333" />
-                </androidx.constraintlayout.widget.ConstraintLayout>
-            </androidx.constraintlayout.widget.ConstraintLayout>
-
-        </androidx.cardview.widget.CardView>
 
     </LinearLayout>
 

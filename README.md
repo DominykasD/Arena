@@ -2,7 +2,7 @@
 An app to order food and get it delivered to your seat in a stadium.
 
 ## Current features
-Register and login to application. Opens main activity with navigation drawer. 
+Register and login to application. Opens main activity with navigation drawer. Category page with RecyclerView.
 
 ### To-do
 Notepad: https://rentry.co/wyek3
