@@ -22,4 +22,10 @@
     <string name="settings">Nustatymai</string>
     <string name="close">X</string>
     <string name="product_description">Prekės aprašymas</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="product_name">Produkto aprašymas</string>
+    <string name="product_price">0</string>
+    <string name="eur_symbol">€</string>
+    <string name="number_of_produts">0</string>
 </resources>
