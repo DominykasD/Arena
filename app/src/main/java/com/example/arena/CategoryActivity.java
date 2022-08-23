@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -31,16 +33,17 @@ import java.util.List;
 
 public class CategoryActivity extends AppCompatActivity {
 
-    RecyclerView recyclerView;
-    List<Category> categories;
+    private RecyclerView recyclerView;
+    private List<Category> categories;
     private static String JSON_URL = "http://10.0.2.2/ArenaServer/food.json";
+    private int foodImage;
+    private ImageView minusSymbol, plusSymbol;
+    private TextView numberOfDishes;
     CategoryAdapter adapter;
 
-//    private String burgerImage = "C\\User\\Dominykas\\Desktop\\burger.jpg";
-   private ImageView imageView;
 
-    int image = R.drawable.food_image_empty;
 
+    @SuppressLint("SetTextI18n")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,19 +52,19 @@ public class CategoryActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.mRecyclerView);
         categories = new ArrayList<>();
 
+        foodImage = R.drawable.food_image_empty;
+
+        plusSymbol = (ImageView) findViewById(R.id.plusSymbol);
+        numberOfDishes = (TextView) findViewById(R.id.numberOfProducts);
+
         addItemsFromJSON();
 
-        imageView = (ImageView) findViewById(R.id.foodImage);
-//
-//        loadImageWithResize();
+
+
     }
 
-//    private void loadImageWithResize() {
-//        Picasso.get()
-//                .load(burgerImage)
-//                .resize(200, 200)
-//                .into(imageView);
-//    }
+
+
 
     private void addItemsFromJSON() {
         RequestQueue queue = Volley.newRequestQueue(this);
@@ -78,7 +81,7 @@ public class CategoryActivity extends AppCompatActivity {
                         category.setDescription(categoryObject.getString("description").toString());
                         category.setPrice(categoryObject.getString("price").toString());
                         category.setFavorite(categoryObject.getString("favorite").toString());
-                        category.setImage(image);
+                        category.setFoodImage(foodImage);
                         categories.add(category);
 
 

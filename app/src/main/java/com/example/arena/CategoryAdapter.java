@@ -16,6 +16,9 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
 
     private LayoutInflater mInflater;
     private List<Category> categories;
+    private int counta = 0, countr = 0, sum = 0;
+    private String add, remove;
+
 
     public CategoryAdapter(Context context, List<Category> categories) {
         this.mInflater = LayoutInflater.from(context);
@@ -36,7 +39,11 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
         holder.foodName.setText(categories.get(position).getName());
         holder.foodDescription.setText(categories.get(position).getDescription());
         holder.foodPrice.setText(categories.get(position).getPrice());
-        holder.imageView.setImageResource(categories.get(position).getImage());
+        holder.foodImage.setImageResource(categories.get(position).getFoodImage());
+        holder.minusSymbol.setImageResource(R.drawable.ic_minus);
+        holder.plusSymbol.setImageResource(R.drawable.ic_add);
+        holder.numberOfProducts.setText("0");
+        holder.favoriteFood.setImageResource(R.drawable.ic_favorites);
     }
 
     @Override
@@ -46,8 +53,9 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
 
 
     public class ViewHolder extends RecyclerView.ViewHolder{
-        TextView foodName, foodDescription, foodPrice;
-        ImageView imageView;
+        TextView foodName, foodDescription, foodPrice, numberOfProducts;
+        ImageView foodImage, minusSymbol, plusSymbol, favoriteFood;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -55,10 +63,53 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
             foodName = (TextView) itemView.findViewById(R.id.foodName);
             foodDescription = (TextView) itemView.findViewById(R.id.foodDesc);
             foodPrice = (TextView) itemView.findViewById(R.id.foodPrice);
-            imageView = (ImageView) itemView.findViewById(R.id.foodImage);
+            foodImage = (ImageView) itemView.findViewById(R.id.foodImage);
+            minusSymbol = (ImageView) itemView.findViewById(R.id.minusSymbol);
+            plusSymbol = (ImageView) itemView.findViewById(R.id.plusSymbol);
+            numberOfProducts = (TextView) itemView.findViewById(R.id.numberOfProducts);
+            favoriteFood = (ImageView) itemView.findViewById(R.id.favoriteFood);
+
+            plusSymbol.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    addition();
+                    sum();
+                    String s = Integer.toString(sum());
+                    numberOfProducts.setText(s);
+                }
+            });
+
+            minusSymbol.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    subtraction();
+                    sum();
+                    String s = Integer.toString(sum());
+                    numberOfProducts.setText(s);
+                }
+            });
+
 
         }
 
+    }
+
+    private int addition() {
+        counta++;
+        return counta;
+    }
+
+    private int subtraction() {
+        countr++;
+        return countr;
+    }
+
+    private int sum() {
+        sum = counta - countr;
+        if (sum < 0) {
+            sum = 0;
+        }
+        return sum;
     }
 
 }

@@ -6,18 +6,20 @@ public class Category {
     private String description;
     private String price;
     private String favorite;
-    private int image;
+    private int foodImage;
+    private String numberOfPruducts;
 
     public Category() {
     }
 
-    public Category(String id, String name, String description, String price, String favorite, int image) {
+    public Category(String id, String name, String description, String price, String favorite, int foodImage, String numberOfPruducts) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
         this.favorite = favorite;
-        this.image = image;
+        this.foodImage = foodImage;
+        this.numberOfPruducts = numberOfPruducts;
     }
 
     public String getId() {
@@ -60,11 +62,19 @@ public class Category {
         this.favorite = favorite;
     }
 
-    public int getImage() {
-        return image;
+    public int getFoodImage() {
+        return foodImage;
     }
 
-    public void setImage(int image) {
-        this.image = image;
+    public void setFoodImage(int foodImage) {
+        this.foodImage = foodImage;
+    }
+
+    public String getNumberOfPruducts() {
+        return numberOfPruducts;
+    }
+
+    public void setNumberOfPruducts(String numberOfPruducts) {
+        this.numberOfPruducts = numberOfPruducts;
     }
 }
