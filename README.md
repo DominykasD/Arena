@@ -28,10 +28,23 @@ Navigation drawer
 
 ![Screenshot 2022-08-11 134205](https://user-images.githubusercontent.com/23237769/184121916-aa2a8bc5-ec9c-46c1-bc4b-bb05b5b261c4.png)
 
+
 Main menu
 
-![Screenshot 2022-08-11 134215](https://user-images.githubusercontent.com/23237769/184121935-2c4f86bb-f45e-44eb-9395-c70544747d28.png)
-![Screenshot 2022-08-11 134234](https://user-images.githubusercontent.com/23237769/184121943-3580598a-7623-43bb-bc2e-4947df716c37.png)
+![Screenshot 2022-08-23 095534](https://user-images.githubusercontent.com/23237769/186095534-2edd7d23-d696-410a-8881-7666d6f97092.png)
+![Screenshot 2022-08-23 101340](https://user-images.githubusercontent.com/23237769/186095547-71cfefc1-323b-4119-8ab5-942a65020c0b.png)
+
+
+Login, Register
+
+![Screenshot 2022-08-23 095326](https://user-images.githubusercontent.com/23237769/186095188-efc6f641-be94-4d53-a50e-8b04243f535c.png)
+![Registration](https://user-images.githubusercontent.com/23237769/186095170-66468d91-2333-4feb-9ae2-7f98420ddb0d.png)
+
+Category
+
+![Screenshot 2022-08-23 101311](https://user-images.githubusercontent.com/23237769/186095412-020e087c-73cd-4c42-a5ab-89fbcf38a518.png)
+
+
 
 
 
