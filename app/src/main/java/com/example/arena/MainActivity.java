@@ -53,8 +53,8 @@ public class MainActivity extends AppCompatActivity {
         button = (Button) findViewById(R.id.buttLogin);
 
         // setText for testing purposes
-        email.setText("test@arena.com");
-        password.setText("test");
+//        email.setText("test@arena.com");
+//        password.setText("test");
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
