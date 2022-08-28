@@ -27,7 +27,7 @@ public class MainMenuActivity extends AppCompatActivity {
     private Toolbar toolbar, topAppBar;
     private AppBarConfiguration mAppBarConfiguration;
     private DrawerLayout mDrawer;
-    private ImageView imageView;
+    private ImageView imageView, imageCheckout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +45,7 @@ public class MainMenuActivity extends AppCompatActivity {
 //        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
+        // Open Category activity
         imageView = (ImageView) findViewById(R.id.imageView5);
         imageView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,9 +54,20 @@ public class MainMenuActivity extends AppCompatActivity {
             }
         });
 
+        // Open Checkout activity
+        imageCheckout = (ImageView) findViewById(R.id.imageCheckout);
+        imageCheckout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openCheckoutActivity();
+            }
+        });
 
+    }
 
-
+    private void openCheckoutActivity() {
+        Intent intent = new Intent(this, CheckoutActivity.class);
+        startActivity(intent);
     }
 
     private void openCategoryActivity() {

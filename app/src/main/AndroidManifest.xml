@@ -13,9 +13,12 @@
         android:theme="@style/Theme.Arena"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".CheckoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".CategoryActivity"
             android:exported="false"
-            android:theme="@style/AppBar.NoActionBar_Category"/>
+            android:theme="@style/AppBar.NoActionBar_Category" />
         <activity
             android:name=".MainMenuActivity"
             android:exported="false"
@@ -23,7 +26,7 @@
         <activity
             android:name=".Register"
             android:exported="false"
-            android:theme="@style/AppBar.NoActionBar_LoginRegistration"/>
+            android:theme="@style/AppBar.NoActionBar_LoginRegistration" />
         <activity
             android:name=".MainActivity"
             android:exported="true"

@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -47,14 +48,13 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
         email = (EditText) findViewById(R.id.editEmail);
         password = (EditText) findViewById(R.id.editPsw);
         button = (Button) findViewById(R.id.buttLogin);
 
         // setText for testing purposes
-//        email.setText("test@arena.com");
-//        password.setText("test");
+        email.setText("test@arena.com");
+        password.setText("test");
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -89,6 +89,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 
 
     private void openRegisterActivity() {
