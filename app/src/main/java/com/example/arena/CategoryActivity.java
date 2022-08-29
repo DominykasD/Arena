@@ -31,7 +31,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CategoryActivity extends AppCompatActivity {
+public class CategoryActivity extends AppCompatActivity{
 
     private RecyclerView recyclerView;
     private List<Category> categories;
@@ -39,6 +39,7 @@ public class CategoryActivity extends AppCompatActivity {
     private int foodImage;
     private ImageView minusSymbol, plusSymbol;
     private TextView numberOfDishes;
+    private TextView numberOfProducts;
     CategoryAdapter adapter;
 
 
@@ -56,6 +57,8 @@ public class CategoryActivity extends AppCompatActivity {
 
         plusSymbol = (ImageView) findViewById(R.id.plusSymbol);
         numberOfDishes = (TextView) findViewById(R.id.numberOfProducts);
+
+        numberOfProducts = (TextView) findViewById(R.id.numberOfProducts);
 
         addItemsFromJSON();
 
@@ -102,5 +105,23 @@ public class CategoryActivity extends AppCompatActivity {
         });
         queue.add(jsonArrayRequest);
     }
+
+//    @Override
+//    public void onClick(View v) {
+//        switch (v.getId()) {
+//            case R.id.plusSymbol:
+//                increaseQuantityClick();
+//                break;
+//            case R.id.minusSymbol:
+//                decreaseQuantityClick();
+//        }
+//    }
+//
+//    private void decreaseQuantityClick() {
+//    }
+//
+//    private void increaseQuantityClick() {
+//        numberOfProducts.setText(numberOfProducts.getText().toString() + 1);
+//    }
 }
 

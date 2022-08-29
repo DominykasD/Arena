@@ -7,19 +7,19 @@ public class Category {
     private String price;
     private String favorite;
     private int foodImage;
-    private String numberOfPruducts;
+    private String numberOfProducts;
 
     public Category() {
     }
 
-    public Category(String id, String name, String description, String price, String favorite, int foodImage, String numberOfPruducts) {
+    public Category(String id, String name, String description, String price, String favorite, int foodImage, String numberOfProducts) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
         this.favorite = favorite;
         this.foodImage = foodImage;
-        this.numberOfPruducts = numberOfPruducts;
+        this.numberOfProducts = numberOfProducts;
     }
 
     public String getId() {
@@ -71,10 +71,10 @@ public class Category {
     }
 
     public String getNumberOfPruducts() {
-        return numberOfPruducts;
+        return numberOfProducts;
     }
 
     public void setNumberOfPruducts(String numberOfPruducts) {
-        this.numberOfPruducts = numberOfPruducts;
+        this.numberOfProducts = numberOfPruducts;
     }
 }
