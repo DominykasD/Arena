@@ -7,19 +7,19 @@ public class Category {
     private String price;
     private String favorite;
     private int foodImage;
-    private String numberOfProducts;
+    private String itemQuantity;
 
     public Category() {
     }
 
-    public Category(String id, String name, String description, String price, String favorite, int foodImage, String numberOfProducts) {
+    public Category(String id, String name, String description, String price, String favorite, int foodImage, String itemQuantity) {
         this.id = id;
         this.name = name;
         this.description = description;
         this.price = price;
         this.favorite = favorite;
         this.foodImage = foodImage;
-        this.numberOfProducts = numberOfProducts;
+        this.itemQuantity = itemQuantity;
     }
 
     public String getId() {
@@ -70,11 +70,11 @@ public class Category {
         this.foodImage = foodImage;
     }
 
-    public String getNumberOfPruducts() {
-        return numberOfProducts;
+    public String getItemQuantity() {
+        return itemQuantity;
     }
 
-    public void setNumberOfPruducts(String numberOfPruducts) {
-        this.numberOfProducts = numberOfPruducts;
+    public void setItemQuantity(String itemQuantity) {
+        this.itemQuantity = itemQuantity;
     }
 }
