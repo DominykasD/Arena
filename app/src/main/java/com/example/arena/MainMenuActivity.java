@@ -4,22 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.navigation.NavController;
-import androidx.navigation.Navigation;
 import androidx.navigation.ui.AppBarConfiguration;
-import androidx.navigation.ui.NavigationUI;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Html;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SearchView;
-
-import com.google.android.material.appbar.AppBarLayout;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -36,7 +28,7 @@ public class MainMenuActivity extends AppCompatActivity {
 
 
         // Set a Toolbar to replace Actionbar
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar = (Toolbar) findViewById(R.id.toolbarCheckout);
         setSupportActionBar(toolbar);
 
         getSupportActionBar().setDisplayShowTitleEnabled(false);

@@ -18,7 +18,7 @@
             android:layout_gravity="center">
 
             <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
+                android:id="@+id/toolbarCheckout"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:background="#00695C"
@@ -41,7 +41,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="18dp"
                     android:layout_marginBottom="16dp"
-                    android:text="Žalgirio arena"
+                    android:text="@string/arena_name"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.501"
@@ -53,6 +53,7 @@
                     android:id="@+id/imageView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:contentDescription="@string/arena_name_options"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.0"
@@ -66,6 +67,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="16dp"
+                    android:contentDescription="@string/cart_image"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
@@ -84,7 +86,8 @@
                     android:inputType="textPersonName"
                     android:padding="4dp"
                     android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
-                    android:hint="Ką galėtume jums pasiūlyti?"
+                    android:hint="@string/search_bar_hint"
+                    android:autofillHints="WhatAreYouLookingFor"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.497"
                     app:layout_constraintStart_toStartOf="parent"
