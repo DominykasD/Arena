@@ -23,7 +23,7 @@
     <string name="close">X</string>
     <string name="product_description">Prekės aprašymas</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="product_name">Produkto aprašymas</string>
+    <string name="product_name">Produkto pavadinimas</string>
     <string name="product_price">0</string>
     <string name="eur_symbol">€</string>
     <string name="number_of_products">0</string>
@@ -42,4 +42,5 @@
     <string name="price_without_pvm">0</string>
     <string name="price">0</string>
     <string name="viso">Viso</string>
+    <string name="minus">-</string>
 </resources>
