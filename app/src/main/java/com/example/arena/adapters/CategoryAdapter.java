@@ -1,4 +1,4 @@
-package com.example.arena;
+package com.example.arena.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,12 +10,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.arena.Category;
+import com.example.arena.R;
+
 import java.util.List;
 
 public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHolder>{
 
-    private LayoutInflater mInflater;
-    private List<Category> categories;
+    private final LayoutInflater mInflater;
+    private final List<Category> categories;
 
 
     public CategoryAdapter(Context context, List<Category> categories) {

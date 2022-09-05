@@ -1,4 +1,4 @@
-package com.example.arena;
+package com.example.arena.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -12,6 +12,10 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SearchView;
+
+import com.example.arena.R;
+import com.example.arena.activities.CategoryActivity;
+import com.example.arena.activities.CheckoutActivity;
 
 public class MainMenuActivity extends AppCompatActivity {
 
