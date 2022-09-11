@@ -1,4 +1,4 @@
-package com.example.arena;
+package com.example.arena.models;
 
 public class Category {
     private String id;
@@ -8,11 +8,13 @@ public class Category {
     private String favorite;
     private int foodImage;
     private String itemQuantity;
+    private String category;
 
     public Category() {
     }
 
-    public Category(String id, String name, String description, String price, String favorite, int foodImage, String itemQuantity) {
+    public Category(String id, String name, String description, String price, String favorite,
+                    int foodImage, String itemQuantity, String category) {
         this.id = id;
         this.name = name;
         this.description = description;
@@ -20,6 +22,7 @@ public class Category {
         this.favorite = favorite;
         this.foodImage = foodImage;
         this.itemQuantity = itemQuantity;
+        this.category = category;
     }
 
     public String getId() {
@@ -76,5 +79,13 @@ public class Category {
 
     public void setItemQuantity(String itemQuantity) {
         this.itemQuantity = itemQuantity;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public void setCategory(String category) {
+        this.category = category;
     }
 }

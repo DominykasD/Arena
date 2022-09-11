@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.arena.Category;
+import com.example.arena.models.Category;
 import com.example.arena.R;
 
 import java.util.List;
@@ -35,7 +35,6 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
 
     @Override
     public void onBindViewHolder(@NonNull CategoryAdapter.ViewHolder holder, int position) {
-
 
         holder.foodName.setText(categories.get(position).getName());
         holder.foodDescription.setText(categories.get(position).getDescription());

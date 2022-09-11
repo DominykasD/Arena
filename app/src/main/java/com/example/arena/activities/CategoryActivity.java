@@ -5,6 +5,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -12,7 +13,7 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.arena.Category;
+import com.example.arena.models.Category;
 import com.example.arena.adapters.CategoryAdapter;
 import com.example.arena.R;
 
@@ -65,15 +66,20 @@ public class CategoryActivity extends AppCompatActivity {
                     category.setName(categoryObject.getString("name"));
                     category.setDescription(categoryObject.getString("description"));
                     category.setPrice(categoryObject.getString("price"));
-                    category.setFavorite(categoryObject.getString("favorite"));
+                    category.setCategory(categoryObject.getString("type"));
                     category.setFoodImage(foodImage);
-                    categories.add(category);
+
+                    String categoryName = getIntent().getStringExtra("category");
+                    if (categoryName.equals(category.getCategory())) {
+                         categories.add(category);
+                    }
 
 
                 } catch (JSONException e) {
                     e.printStackTrace();
                 }
             }
+
             recyclerView.setLayoutManager(new LinearLayoutManager(getApplicationContext()));
             adapter = new CategoryAdapter(getApplicationContext(), categories);
             recyclerView.setAdapter(adapter);

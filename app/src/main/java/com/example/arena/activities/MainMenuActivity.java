@@ -14,8 +14,7 @@ import android.widget.ImageView;
 import android.widget.SearchView;
 
 import com.example.arena.R;
-import com.example.arena.activities.CategoryActivity;
-import com.example.arena.activities.CheckoutActivity;
+import com.example.arena.models.Category;
 
 public class MainMenuActivity extends AppCompatActivity {
 
@@ -23,13 +22,17 @@ public class MainMenuActivity extends AppCompatActivity {
     private Toolbar toolbar, topAppBar;
     private AppBarConfiguration mAppBarConfiguration;
     private DrawerLayout mDrawer;
-    private ImageView imageView, imageCheckout;
+    private ImageView imagepizza, imageHamburger, imageDrinks, imageDeserts,
+            imageKebab, imageSalad, imageSnacks, imageSpaghetti, imageCheckout;
+    private Category category;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menu);
 
+        category = new Category();
 
         // Set a Toolbar to replace Actionbar
         toolbar = (Toolbar) findViewById(R.id.toolbarCheckout);
@@ -42,13 +45,7 @@ public class MainMenuActivity extends AppCompatActivity {
         mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         // Open Category activity
-        imageView = (ImageView) findViewById(R.id.imageView5);
-        imageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                openCategoryActivity();
-            }
-        });
+        categoryActivity();
 
         // Open Checkout activity
         imageCheckout = (ImageView) findViewById(R.id.imageCheckout);
@@ -61,6 +58,80 @@ public class MainMenuActivity extends AppCompatActivity {
 
     }
 
+    private void categoryActivity() {
+        imagepizza = findViewById(R.id.category_pizza);
+        imagepizza.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                category.setCategory("pica");
+                openCategoryActivity();
+            }
+        });
+
+        imageHamburger = findViewById(R.id.category_hamburger);
+        imageHamburger.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                category.setCategory("mėsainis");
+                openCategoryActivity();
+            }
+        });
+
+        imageDrinks = findViewById(R.id.category_drinks);
+        imageDrinks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                category.setCategory("drinks");
+                openCategoryActivity();
+            }
+        });
+
+        imageDeserts = findViewById(R.id.category_deserts);
+        imageDeserts.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                category.setCategory("deserts");
+                openCategoryActivity();
+            }
+        });
+
+        imageKebab = findViewById(R.id.category_kebab);
+        imageKebab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                category.setCategory("kebab");
+                openCategoryActivity();
+            }
+        });
+
+        imageSalad = findViewById(R.id.category_salad);
+        imageSalad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                category.setCategory("salad");
+                openCategoryActivity();
+            }
+        });
+
+        imageSnacks = findViewById(R.id.category_snacks);
+        imageSnacks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                category.setCategory("snacks");
+                openCategoryActivity();
+            }
+        });
+
+        imageSpaghetti = findViewById(R.id.category_spaghetti);
+        imageSpaghetti.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                category.setCategory("spaghetti");
+                openCategoryActivity();
+            }
+        });
+    }
+
     private void openCheckoutActivity() {
         Intent intent = new Intent(this, CheckoutActivity.class);
         startActivity(intent);
@@ -68,6 +139,7 @@ public class MainMenuActivity extends AppCompatActivity {
 
     private void openCategoryActivity() {
         Intent intent = new Intent(this, CategoryActivity.class);
+        intent.putExtra("category", category.getCategory());
         startActivity(intent);
     }
 
