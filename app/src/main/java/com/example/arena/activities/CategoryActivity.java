@@ -8,6 +8,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.TextView;
 
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
@@ -34,6 +35,8 @@ public class CategoryActivity extends AppCompatActivity {
 
     CategoryAdapter adapter;
 
+    private TextView categoryTextv;
+
 
 
 
@@ -48,6 +51,8 @@ public class CategoryActivity extends AppCompatActivity {
         categories = new ArrayList<>();
 
         foodImage = R.drawable.food_image_empty;
+
+        categoryTextv = findViewById(R.id.categoryText);
 
         addItemsFromJSON();
 
@@ -70,8 +75,10 @@ public class CategoryActivity extends AppCompatActivity {
                     category.setFoodImage(foodImage);
 
                     String categoryName = getIntent().getStringExtra("category");
+                    String categoryText = getIntent().getStringExtra("category_name");
                     if (categoryName.equals(category.getCategory())) {
                          categories.add(category);
+                         categoryTextv.setText(categoryText);
                     }
 
 

@@ -6,12 +6,14 @@ import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.navigation.ui.AppBarConfiguration;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.SearchView;
+import android.widget.TextView;
 
 import com.example.arena.R;
 import com.example.arena.models.Category;
@@ -25,7 +27,7 @@ public class MainMenuActivity extends AppCompatActivity {
     private ImageView imagepizza, imageHamburger, imageDrinks, imageDeserts,
             imageKebab, imageSalad, imageSnacks, imageSpaghetti, imageCheckout;
     private Category category;
-
+    private TextView categoryName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +47,10 @@ public class MainMenuActivity extends AppCompatActivity {
         mDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
 
         // Open Category activity
+        categoryName = findViewById(R.id.categoryText);
+        categoryName = new TextView(getApplicationContext());
         categoryActivity();
+
 
         // Open Checkout activity
         imageCheckout = (ImageView) findViewById(R.id.imageCheckout);
@@ -61,72 +66,88 @@ public class MainMenuActivity extends AppCompatActivity {
     private void categoryActivity() {
         imagepizza = findViewById(R.id.category_pizza);
         imagepizza.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                category.setCategory("pica");
+                category.setCategory("picos");
+                categoryName.setText("Picos");
                 openCategoryActivity();
             }
         });
 
         imageHamburger = findViewById(R.id.category_hamburger);
         imageHamburger.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                category.setCategory("mėsainis");
+                category.setCategory("mėsainiai");
+                categoryName.setText("Mėsainiai");
                 openCategoryActivity();
             }
         });
 
         imageDrinks = findViewById(R.id.category_drinks);
         imageDrinks.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                category.setCategory("drinks");
+                category.setCategory("gėrimai");
+                categoryName.setText("Gėrimai");
                 openCategoryActivity();
             }
         });
 
         imageDeserts = findViewById(R.id.category_deserts);
         imageDeserts.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                category.setCategory("deserts");
+                category.setCategory("desertai");
+                categoryName.setText("Desertai");
                 openCategoryActivity();
             }
         });
 
         imageKebab = findViewById(R.id.category_kebab);
         imageKebab.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                category.setCategory("kebab");
+                category.setCategory("kebabai");
+                categoryName.setText("Kebabai");
                 openCategoryActivity();
             }
         });
 
         imageSalad = findViewById(R.id.category_salad);
         imageSalad.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                category.setCategory("salad");
+                category.setCategory("salotos");
+                categoryName.setText("Salotos");
                 openCategoryActivity();
             }
         });
 
         imageSnacks = findViewById(R.id.category_snacks);
         imageSnacks.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                category.setCategory("snacks");
+                category.setCategory("užkandžiai");
+                categoryName.setText("Užkandžiai");
                 openCategoryActivity();
             }
         });
 
         imageSpaghetti = findViewById(R.id.category_spaghetti);
         imageSpaghetti.setOnClickListener(new View.OnClickListener() {
+            @SuppressLint("SetTextI18n")
             @Override
             public void onClick(View v) {
-                category.setCategory("spaghetti");
+                category.setCategory("makaronai");
+                categoryName.setText("Makaronai");
                 openCategoryActivity();
             }
         });
@@ -140,6 +161,7 @@ public class MainMenuActivity extends AppCompatActivity {
     private void openCategoryActivity() {
         Intent intent = new Intent(this, CategoryActivity.class);
         intent.putExtra("category", category.getCategory());
+        intent.putExtra("category_name", categoryName.getText());
         startActivity(intent);
     }
 
