@@ -1,5 +1,7 @@
 package com.example.arena.models;
 
+import java.util.List;
+
 public class Category {
     private String id;
     private String name;
@@ -11,18 +13,6 @@ public class Category {
     private String category;
 
     public Category() {
-    }
-
-    public Category(String id, String name, String description, String price, String favorite,
-                    int foodImage, String itemQuantity, String category) {
-        this.id = id;
-        this.name = name;
-        this.description = description;
-        this.price = price;
-        this.favorite = favorite;
-        this.foodImage = foodImage;
-        this.itemQuantity = itemQuantity;
-        this.category = category;
     }
 
     public String getId() {
@@ -88,4 +78,5 @@ public class Category {
     public void setCategory(String category) {
         this.category = category;
     }
+
 }

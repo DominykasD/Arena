@@ -43,4 +43,9 @@
     <string name="price">0</string>
     <string name="viso">Viso</string>
     <string name="minus">-</string>
+    <string name="login">PRISIJUNGIMAS</string>
+    <string name="email">Epaštas</string>
+    <string name="password">Slaptažodis</string>
+    <string name="prisijungti">Prisijungti</string>
+    <string name="registruotis">Registruotis</string>
 </resources>

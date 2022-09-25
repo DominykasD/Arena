@@ -1,22 +1,13 @@
 package com.example.arena.models;
 
 public class Cart {
-    String id;
-    String title;
-    String price;
-    String quantity;
-    String subTotal;
+    private String id;
+    private String foodName;
+    private String foodPrice;
+    private String foodQuantity;
+    private double subTotal;
 
-    public Cart() {
-    }
-
-    public Cart(String id, String title, String price, String quantity, String subTotal) {
-        this.id = id;
-        this.title = title;
-        this.price = price;
-        this.quantity = quantity;
-        this.subTotal = subTotal;
-    }
+    public Cart() { }
 
     public String getId() {
         return id;
@@ -26,35 +17,36 @@ public class Cart {
         this.id = id;
     }
 
-    public String getTitle() {
-        return title;
+    public String getFoodName() {
+        return foodName;
     }
 
-    public void setTitle(String title) {
-        this.title = title;
+    public void setFoodName(String foodName) {
+        this.foodName = foodName;
     }
 
-    public String getPrice() {
-        return price;
+    public String getFoodPrice() {
+        return foodPrice;
     }
 
-    public void setPrice(String price) {
-        this.price = price;
+    public void setFoodPrice(String foodPrice) {
+        this.foodPrice = foodPrice;
     }
 
-    public String getQuantity() {
-        return quantity;
+    public String getFoodQuantity() {
+        return foodQuantity;
     }
 
-    public void setQuantity(String quantity) {
-        this.quantity = quantity;
+    public void setFoodQuantity(String foodQuantity) {
+        this.foodQuantity = foodQuantity;
     }
 
-    public String getSubTotal() {
+    public double getSubTotal() {
         return subTotal;
     }
 
-    public void setSubTotal(String subTotal) {
+    public void setSubTotal(double subTotal) {
         this.subTotal = subTotal;
     }
+
 }

@@ -22,11 +22,11 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="40dp"
                 android:background="@drawable/orange_background"
-                app:layout_constraintStart_toEndOf="@+id/imageView2"
-                app:layout_constraintTop_toBottomOf="@+id/textView29">
+                app:layout_constraintStart_toEndOf="@+id/foodImageSmall"
+                app:layout_constraintTop_toBottomOf="@+id/textFoodName">
 
                 <ImageView
-                    android:id="@+id/imageView17"
+                    android:id="@+id/imageMinus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/increase_quantity"
@@ -36,7 +36,7 @@
                     app:srcCompat="@drawable/ic_minus" />
 
                 <ImageView
-                    android:id="@+id/imageView16"
+                    android:id="@+id/imagePlus"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:contentDescription="@string/decrease_quantity"
@@ -46,20 +46,20 @@
                     app:srcCompat="@drawable/ic_add" />
 
                 <TextView
-                    android:id="@+id/textView32"
+                    android:id="@+id/textQuantity"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="1dp"
                     android:text="@string/number_of_products"
                     android:textColor="#fff"
                     app:layout_constraintBottom_toBottomOf="parent"
-                    app:layout_constraintEnd_toStartOf="@+id/imageView16"
-                    app:layout_constraintStart_toEndOf="@+id/imageView17"
+                    app:layout_constraintEnd_toStartOf="@+id/imagePlus"
+                    app:layout_constraintStart_toEndOf="@+id/imageMinus"
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
             <ImageView
-                android:id="@+id/imageView2"
+                android:id="@+id/foodImageSmall"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_marginStart="16dp"
@@ -70,17 +70,17 @@
                 app:srcCompat="@drawable/food_image_empty" />
 
             <TextView
-                android:id="@+id/textView29"
+                android:id="@+id/textFoodName"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="16dp"
                 android:text="@string/product_name"
-                app:layout_constraintStart_toEndOf="@+id/imageView2"
+                app:layout_constraintStart_toEndOf="@+id/foodImageSmall"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/textView33"
+                android:id="@+id/textProductPrice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="126dp"
@@ -95,7 +95,7 @@
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout13" />
 
             <TextView
-                android:id="@+id/textView34"
+                android:id="@+id/textEurSymbol"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="64dp"
@@ -105,7 +105,7 @@
                 android:textSize="15sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/textView33"
+                app:layout_constraintEnd_toStartOf="@+id/textProductPrice"
                 app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toEndOf="@+id/constraintLayout13" />
 
