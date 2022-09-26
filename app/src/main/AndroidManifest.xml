@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.arena">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,9 +12,19 @@
         android:theme="@style/Theme.Arena"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.SplashScreenActivity"
+            android:exported="true"
+            android:theme="@style/AppBar.NoActionBar_LoginRegistration">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".activities.CheckoutActivity"
             android:exported="false"
-            android:theme="@style/AppBar.NoActionBar"/>
+            android:theme="@style/AppBar.NoActionBar" />
         <activity
             android:name=".activities.CategoryActivity"
             android:exported="false"
@@ -25,19 +34,14 @@
             android:exported="false"
             android:theme="@style/AppBar.NoActionBar" />
         <activity
-            android:name=".Register"
+            android:name=".activities.RegisterActivity"
             android:exported="false"
             android:theme="@style/AppBar.NoActionBar_LoginRegistration" />
         <activity
             android:name=".activities.MainActivity"
             android:exported="true"
-            android:theme="@style/AppBar.NoActionBar_LoginRegistration">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/AppBar.NoActionBar_LoginRegistration"/>
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
     </application>
 
 </manifest>

@@ -74,4 +74,9 @@
     <string name="kontaktinis_telefonas">Kontaktinis telefonas</string>
     <string name="telefon_start_hint">+370</string>
     <string name="keisti">Keisti</string>
+    <string name="login">PRISIJUNGIMAS</string>
+    <string name="email">Epaštas</string>
+    <string name="password">Slaptažodis</string>
+    <string name="prisijungti">Prisijungti</string>
+    <string name="registruotis">Registruotis</string>
 </resources>
