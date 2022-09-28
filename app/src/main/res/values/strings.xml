@@ -43,11 +43,6 @@
     <string name="price">0</string>
     <string name="viso">Viso</string>
     <string name="minus">-</string>
-    <string name="login">PRISIJUNGIMAS</string>
-    <string name="email">Epaštas</string>
-    <string name="password">Slaptažodis</string>
-    <string name="prisijungti">Prisijungti</string>
-    <string name="registruotis">Registruotis</string>
     <string name="x">x</string>
     <string name="card_name">Kortelės Pavadinimas</string>
     <string name="card_number">6556 5588 7588 5225</string>
@@ -79,4 +74,16 @@
     <string name="kontaktinis_telefonas">Kontaktinis telefonas</string>
     <string name="telefon_start_hint">+370</string>
     <string name="keisti">Keisti</string>
+    <string name="login">PRISIJUNGIMAS</string>
+    <string name="email">Epaštas</string>
+    <string name="password">Slaptažodis</string>
+    <string name="prisijungti">Prisijungti</string>
+    <string name="registruotis">Registruotis</string>
+    <string name="pasirinkite_sektoriu">Pasirinkite sektorių</string>
+    <string name="toliau">Toliau</string>
+    <string name="Capital_sektorius">Sektorius</string>
+    <string name="Capital_eile">Eilė</string>
+    <string name="Capital_vieta">/ Vieta</string>
+    <string name="vieta_sektorius">Pristatymo vieta / Sektorius</string>
+    <string name="pasirinkite_vieta">Pasirinkite vietą</string>
 </resources>
