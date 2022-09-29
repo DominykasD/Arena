@@ -86,4 +86,9 @@
     <string name="Capital_vieta">/ Vieta</string>
     <string name="vieta_sektorius">Pristatymo vieta / Sektorius</string>
     <string name="pasirinkite_vieta">Pasirinkite vietą</string>
+    <string name="j_s_u_sakymas_patvirtintas">Jūsų užsakymas patvirtintas</string>
+    <string name="u_sakymas_bus_pristatytas">Užsakymas bus pristatytas į</string>
+    <string name="u_sakymo_nr">Užsakymo Nr.</string>
+    <string name="za12345">#za12345</string>
+    <string name="steb_ti_u_sakymo_status">Stebėti užsakymo statusą</string>
 </resources>

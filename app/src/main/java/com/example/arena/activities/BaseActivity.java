@@ -19,6 +19,7 @@ public abstract class BaseActivity extends AppCompatActivity implements Callback
     List<Cart> cartList = new ArrayList<>();
     LocalStorage localStorage;
     Gson gson;
+    String sector;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -43,6 +44,17 @@ public abstract class BaseActivity extends AppCompatActivity implements Callback
         return 0;
     }
 
+    public String getSectorNumber() {
+        gson = new Gson();
+        if(localStorage.getSector() != null) {
+            String jsonSector = localStorage.getSector();
+            Type type = new TypeToken<String>() {}.getType();
+            sector = gson.fromJson(jsonSector, type);
+            return sector;
+        }
+        return sector;
+    }
+
     public List<Cart> getCartList() {
         gson = new Gson();
         if(localStorage.getCart() != null) {
@@ -53,6 +65,7 @@ public abstract class BaseActivity extends AppCompatActivity implements Callback
         }
         return cartList;
     }
+
 
     public Double getPriceWithoutPVM() {
         cartList = getCartList();

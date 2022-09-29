@@ -176,6 +176,25 @@
                     app:layout_constraintTop_toTopOf="parent" />
             </androidx.constraintlayout.widget.ConstraintLayout>
 
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="330dp"
+                android:layout_height="48dp"
+                android:layout_marginBottom="28dp"
+                android:background="@drawable/orange_background"
+                android:foregroundTint="@color/colorPrimary"
+                android:text="@string/testi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/teal_700"
+                android:textColorHighlight="#772222"
+                android:textColorHint="#501818"
+                android:textColorLink="#602121"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:ignore="TextContrastCheck" />
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
     </LinearLayout>
