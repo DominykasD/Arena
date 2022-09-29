@@ -34,6 +34,19 @@
             app:layout_constraintTop_toBottomOf="@+id/textView9" />
 
         <TextView
+            android:id="@+id/textView62"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:text="@string/sektorius_nr"
+            android:textColor="@color/colorSecondary"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="@+id/textView9"
+            app:layout_constraintStart_toEndOf="@+id/textView9"
+            app:layout_constraintTop_toTopOf="@+id/textView9"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
             android:id="@+id/textView9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -130,7 +143,7 @@
             android:layout_width="284dp"
             android:layout_height="378dp"
             android:layout_marginTop="48dp"
-            app:cardCornerRadius="100dp"
+
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
@@ -138,7 +151,1050 @@
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView_5_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_5_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_4_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_4_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_5_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_3_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_3_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_4_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_2_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_2_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_3_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_1_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_1_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_2_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_9"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_10"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_8_8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_7_8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_6_8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_5_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_5_8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_9"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_10"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_9"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_10"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_9"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_10"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_8_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_7_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_6_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_5_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_5_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_4_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_4_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_5_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_3_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_3_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_4_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_2_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_2_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_3_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_1_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_1_4"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_2_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_8_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_7_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_6_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_5_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_5_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_4_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_4_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_5_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_3_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_3_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_4_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_2_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_2_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_3_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_1_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_1_5"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_2_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_16_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_8_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_7_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_6_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_5_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_5_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_4_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_4_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_5_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_3_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_3_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_4_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_2_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_2_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_3_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_1_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_1_6"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_2_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_8"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_8_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_7_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_6_7"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_11"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_11"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_10"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_10"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_9"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_16_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_8"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_16_7"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_16_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_6"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_5"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_4"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_3"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageView_13_2"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_13_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_13_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_12_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_11_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_10_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_9_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_8_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_7_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_5_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_6_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_4_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_5_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_5_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_3_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_4_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_4_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_2_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_3_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_3_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_1_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toEndOf="@+id/imageView_2_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_2_1"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_8_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_7_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_6_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_5_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_5_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_4_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_4_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_5_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_3_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_3_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_4_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_2_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_2_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_3_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_1_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_1_1"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_2_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_8_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_7_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_6_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_5_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_5_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_4_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_4_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_5_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_3_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_3_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_4_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_2_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_2_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_3_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_1_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_1_2"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_2_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_12_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_12_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_13_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_11_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_11_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_12_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_10_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_10_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_11_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_9_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_9_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_10_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_8_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_8_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_9_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_7_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_7_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_8_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_6_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_6_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_7_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_5_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_5_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_6_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_4_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_4_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_5_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_3_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_3_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_4_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_2_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_2_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_3_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_1_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintEnd_toStartOf="@+id/imageView_1_3"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_2_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_13_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="@+id/imageView_14_11"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView_14_11"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_4"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_4"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_2"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_2"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_3"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_3"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_11"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_11"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_9"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_9"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_7"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_7"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_6"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_6"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_8"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_8"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_5"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_5"
+                    app:srcCompat="@drawable/taskas" />
+
+                <ImageView
+                    android:id="@+id/imageView_14_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toEndOf="@+id/imageView_14_10"
+                    app:layout_constraintTop_toTopOf="@+id/imageView_14_10"
+                    app:srcCompat="@drawable/taskas" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
 
         </androidx.cardview.widget.CardView>
 
