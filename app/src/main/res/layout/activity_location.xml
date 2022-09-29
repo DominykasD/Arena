@@ -116,6 +116,7 @@
                 android:id="@+id/imageView7"
                 android:layout_width="281dp"
                 android:layout_height="371dp"
+                android:visibility="gone"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
@@ -125,21 +126,21 @@
                 app:srcCompat="@drawable/seating" />
 
             <ImageView
-                android:id="@+id/imageView8"
-                android:layout_width="56dp"
-                android:layout_height="36dp"
+                android:id="@+id/imageView101"
+                android:layout_width="54dp"
+                android:layout_height="33dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.228"
+                app:layout_constraintHorizontal_bias="0.23"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.33"
                 app:srcCompat="@drawable/sector101" />
 
             <ImageView
-                android:id="@+id/imageView10"
-                android:layout_width="54dp"
-                android:layout_height="33dp"
+                android:id="@+id/imageView103"
+                android:layout_width="50dp"
+                android:layout_height="31dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.24"
@@ -149,9 +150,9 @@
                 app:srcCompat="@drawable/sector103" />
 
             <ImageView
-                android:id="@+id/imageView11"
-                android:layout_width="54dp"
-                android:layout_height="33dp"
+                android:id="@+id/imageView105"
+                android:layout_width="51dp"
+                android:layout_height="31dp"
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="7dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -163,50 +164,50 @@
                 app:srcCompat="@drawable/sector105" />
 
             <ImageView
-                android:id="@+id/imageView14"
-                android:layout_width="54dp"
-                android:layout_height="33dp"
+                android:id="@+id/imageView107"
+                android:layout_width="52dp"
+                android:layout_height="31dp"
                 android:layout_marginStart="1dp"
                 android:layout_marginTop="12dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.223"
+                app:layout_constraintHorizontal_bias="0.225"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.624"
                 app:srcCompat="@drawable/sector107" />
 
             <ImageView
-                android:id="@+id/imageView16"
-                android:layout_width="53dp"
-                android:layout_height="34dp"
+                android:id="@+id/imageView109"
+                android:layout_width="58dp"
+                android:layout_height="37dp"
                 android:layout_marginStart="2dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.235"
+                app:layout_constraintHorizontal_bias="0.220"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.723"
                 app:srcCompat="@drawable/sector109" />
 
             <ImageView
-                android:id="@+id/imageView17"
-                android:layout_width="73dp"
-                android:layout_height="49dp"
+                android:id="@+id/imageView111"
+                android:layout_width="40dp"
+                android:layout_height="51dp"
                 android:layout_marginStart="2dp"
                 android:layout_marginTop="7dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.306"
+                app:layout_constraintHorizontal_bias="0.325"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.768"
+                app:layout_constraintVertical_bias="0.777"
                 app:srcCompat="@drawable/sector111" />
 
             <ImageView
-                android:id="@+id/imageView27"
-                android:layout_width="80dp"
-                android:layout_height="74dp"
+                android:id="@+id/imageView113"
+                android:layout_width="60dp"
+                android:layout_height="72dp"
                 android:layout_marginTop="23dp"
                 android:layout_marginEnd="4dp"
                 app:layout_constraintBottom_toBottomOf="parent"
@@ -218,7 +219,7 @@
                 app:srcCompat="@drawable/sector113" />
 
             <ImageView
-                android:id="@+id/imageView28"
+                android:id="@+id/imageView119"
                 android:layout_width="53dp"
                 android:layout_height="58dp"
                 android:layout_marginEnd="4dp"
@@ -232,7 +233,7 @@
                 app:srcCompat="@drawable/sector119" />
 
             <ImageView
-                android:id="@+id/imageView29"
+                android:id="@+id/imageView121"
                 android:layout_width="48dp"
                 android:layout_height="50dp"
                 android:layout_marginEnd="4dp"
@@ -246,7 +247,7 @@
                 app:srcCompat="@drawable/sector121" />
 
             <ImageView
-                android:id="@+id/imageView30"
+                android:id="@+id/imageView123"
                 android:layout_width="48dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="6dp"
@@ -256,11 +257,11 @@
                 app:layout_constraintHorizontal_bias="0.75"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.424"
+                app:layout_constraintVertical_bias="0.421"
                 app:srcCompat="@drawable/sector123" />
 
             <ImageView
-                android:id="@+id/imageView31"
+                android:id="@+id/imageView125"
                 android:layout_width="48dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="6dp"
@@ -274,7 +275,7 @@
                 app:srcCompat="@drawable/sector125" />
 
             <ImageView
-                android:id="@+id/imageView32"
+                android:id="@+id/imageView127"
                 android:layout_width="48dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="6dp"
@@ -289,7 +290,7 @@
                 app:srcCompat="@drawable/sector127" />
 
             <ImageView
-                android:id="@+id/imageView33"
+                android:id="@+id/imageView129"
                 android:layout_width="38dp"
                 android:layout_height="39dp"
                 android:layout_marginTop="6dp"
@@ -304,7 +305,7 @@
                 app:srcCompat="@drawable/sector129" />
 
             <ImageView
-                android:id="@+id/imageView34"
+                android:id="@+id/imageView131"
                 android:layout_width="50dp"
                 android:layout_height="68dp"
                 android:layout_marginTop="6dp"
@@ -320,9 +321,9 @@
                 app:srcCompat="@drawable/sector131" />
 
             <ImageView
-                android:id="@+id/imageView35"
+                android:id="@+id/imageView133"
                 android:layout_width="50dp"
-                android:layout_height="68dp"
+                android:layout_height="65dp"
                 android:layout_marginEnd="10dp"
                 android:layout_marginBottom="10dp"
                 android:scaleX="1.4"
@@ -336,9 +337,9 @@
                 app:srcCompat="@drawable/sector133" />
 
             <ImageView
-                android:id="@+id/imageView36"
+                android:id="@+id/imageView135"
                 android:layout_width="34dp"
-                android:layout_height="58dp"
+                android:layout_height="51dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginBottom="3dp"
                 android:scaleX="1.4"
@@ -352,7 +353,7 @@
                 app:srcCompat="@drawable/sector135" />
 
             <ImageView
-                android:id="@+id/imageView37"
+                android:id="@+id/imageView301"
                 android:layout_width="27dp"
                 android:layout_height="40dp"
                 android:layout_marginStart="11dp"
@@ -368,7 +369,7 @@
                 app:srcCompat="@drawable/sector301" />
 
             <ImageView
-                android:id="@+id/imageView38"
+                android:id="@+id/imageView303"
                 android:layout_width="29dp"
                 android:layout_height="41dp"
                 android:layout_marginStart="10dp"
@@ -384,7 +385,7 @@
                 app:srcCompat="@drawable/sector303" />
 
             <ImageView
-                android:id="@+id/imageView39"
+                android:id="@+id/imageView305"
                 android:layout_width="27dp"
                 android:layout_height="43dp"
                 android:layout_marginStart="9dp"
@@ -400,7 +401,7 @@
                 app:srcCompat="@drawable/sector305" />
 
             <ImageView
-                android:id="@+id/imageView40"
+                android:id="@+id/imageView307"
                 android:layout_width="27dp"
                 android:layout_height="43dp"
                 android:layout_marginStart="7dp"
@@ -416,7 +417,7 @@
                 app:srcCompat="@drawable/sector305" />
 
             <ImageView
-                android:id="@+id/imageView41"
+                android:id="@+id/imageView309"
                 android:layout_width="30dp"
                 android:layout_height="45dp"
                 android:layout_marginStart="2dp"
@@ -432,7 +433,7 @@
                 app:srcCompat="@drawable/sector309" />
 
             <ImageView
-                android:id="@+id/imageView42"
+                android:id="@+id/imageView311"
                 android:layout_width="34dp"
                 android:layout_height="47dp"
                 android:layout_marginStart="4dp"
@@ -448,7 +449,7 @@
                 app:srcCompat="@drawable/sector311" />
 
             <ImageView
-                android:id="@+id/imageView43"
+                android:id="@+id/imageView313"
                 android:layout_width="34dp"
                 android:layout_height="47dp"
                 android:layout_marginStart="4dp"
@@ -465,7 +466,7 @@
                 app:srcCompat="@drawable/sector313" />
 
             <ImageView
-                android:id="@+id/imageView44"
+                android:id="@+id/imageView315"
                 android:layout_width="34dp"
                 android:layout_height="47dp"
                 android:layout_marginStart="1dp"
@@ -481,7 +482,7 @@
                 app:srcCompat="@drawable/sector315" />
 
             <ImageView
-                android:id="@+id/imageView45"
+                android:id="@+id/imageView317"
                 android:layout_width="38dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="6dp"
@@ -496,7 +497,7 @@
                 app:srcCompat="@drawable/sector317" />
 
             <ImageView
-                android:id="@+id/imageView46"
+                android:id="@+id/imageView319"
                 android:layout_width="38dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="6dp"
@@ -511,7 +512,7 @@
                 app:srcCompat="@drawable/sector319" />
 
             <ImageView
-                android:id="@+id/imageView47"
+                android:id="@+id/imageView321"
                 android:layout_width="38dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="6dp"
@@ -526,7 +527,7 @@
                 app:srcCompat="@drawable/sector321" />
 
             <ImageView
-                android:id="@+id/imageView48"
+                android:id="@+id/imageView323"
                 android:layout_width="38dp"
                 android:layout_height="48dp"
                 android:layout_marginTop="2dp"
@@ -542,7 +543,7 @@
                 app:srcCompat="@drawable/sector323" />
 
             <ImageView
-                android:id="@+id/imageView49"
+                android:id="@+id/imageView325"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginEnd="3dp"
@@ -557,7 +558,7 @@
                 app:srcCompat="@drawable/sector325" />
 
             <ImageView
-                android:id="@+id/imageView50"
+                android:id="@+id/imageView327"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="3dp"
@@ -573,7 +574,7 @@
                 app:srcCompat="@drawable/sector327" />
 
             <ImageView
-                android:id="@+id/imageView51"
+                android:id="@+id/imageView329"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="5dp"
@@ -589,7 +590,7 @@
                 app:srcCompat="@drawable/sector329" />
 
             <ImageView
-                android:id="@+id/imageView52"
+                android:id="@+id/imageView331"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="3dp"
@@ -605,7 +606,7 @@
                 app:srcCompat="@drawable/sector331" />
 
             <ImageView
-                android:id="@+id/imageView53"
+                android:id="@+id/imageView333"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="5dp"
@@ -620,7 +621,7 @@
                 app:srcCompat="@drawable/sector333" />
 
             <ImageView
-                android:id="@+id/imageView54"
+                android:id="@+id/imageView335"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="5dp"
@@ -635,7 +636,7 @@
                 app:srcCompat="@drawable/sector335" />
 
             <ImageView
-                android:id="@+id/imageView55"
+                android:id="@+id/imageView337"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="7dp"
@@ -650,7 +651,7 @@
                 app:srcCompat="@drawable/sector337" />
 
             <ImageView
-                android:id="@+id/imageView56"
+                android:id="@+id/imageView339"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="11dp"
@@ -666,7 +667,7 @@
                 app:srcCompat="@drawable/sector339" />
 
             <ImageView
-                android:id="@+id/imageView57"
+                android:id="@+id/imageView341"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginStart="2dp"
@@ -682,7 +683,7 @@
                 app:srcCompat="@drawable/sector341" />
 
             <ImageView
-                android:id="@+id/imageView58"
+                android:id="@+id/imageView343"
                 android:layout_width="35dp"
                 android:layout_height="43dp"
                 android:layout_marginStart="5dp"

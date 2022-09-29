@@ -19,7 +19,7 @@ public abstract class BaseActivity extends AppCompatActivity implements Callback
     List<Cart> cartList = new ArrayList<>();
     LocalStorage localStorage;
     Gson gson;
-    String sector;
+    String sector, row, seat;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -53,6 +53,28 @@ public abstract class BaseActivity extends AppCompatActivity implements Callback
             return sector;
         }
         return sector;
+    }
+
+    public String getRowNumber() {
+        gson = new Gson();
+        if(localStorage.getRow() != null) {
+            String jsonRow = localStorage.getRow();
+            Type type = new TypeToken<String>() {}.getType();
+            row = gson.fromJson(jsonRow, type);
+            return row;
+        }
+        return row;
+    }
+
+    public String getSeatNumber() {
+        gson = new Gson();
+        if(localStorage.getSeat() != null) {
+            String jsonSeat = localStorage.getSeat();
+            Type type = new TypeToken<String>() {}.getType();
+            seat = gson.fromJson(jsonSeat, type);
+            return seat;
+        }
+        return seat;
     }
 
     public List<Cart> getCartList() {

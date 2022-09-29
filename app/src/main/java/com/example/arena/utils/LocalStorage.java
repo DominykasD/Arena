@@ -6,6 +6,8 @@ import android.content.SharedPreferences;
 public class LocalStorage {
     private static final String CART = "CART";
     private static final String SECTOR = "SECTOR";
+    private static final String ROW = "ROW";
+    private static final String SEAT = "SEAT";
 
     private final SharedPreferences sharedPreferences;
 
@@ -38,4 +40,30 @@ public class LocalStorage {
         editor.putString(SECTOR, sector);
         editor.apply();
     }
+
+    public String getRow() {
+        if(sharedPreferences.contains(ROW))
+            return sharedPreferences.getString(ROW, null);
+        else return null;
+    }
+
+    public void setRow(String row) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(ROW, row);
+        editor.apply();
+    }
+
+    public String getSeat() {
+        if(sharedPreferences.contains(SEAT))
+            return sharedPreferences.getString(SEAT, null);
+        else return null;
+    }
+
+    public void setSeat(String seat) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(SEAT, seat);
+        editor.apply();
+    }
+
+
 }

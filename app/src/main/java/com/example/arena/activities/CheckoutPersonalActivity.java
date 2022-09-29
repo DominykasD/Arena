@@ -27,11 +27,15 @@ public class CheckoutPersonalActivity extends BaseActivity {
         TextView date = findViewById(R.id.textView37);
         TextView changeLocation = findViewById(R.id.textView40);
         TextView sectorNumber = findViewById(R.id.textView41);
+        TextView rowNumber = findViewById(R.id.textView42);
+        TextView seatNumber = findViewById(R.id.textView43);
         ImageView backButton = findViewById(R.id.imageView5);
         ImageView closeButton = findViewById(R.id.imageView4);
         Button button = findViewById(R.id.button);
 
         sectorNumber.setText(getSectorNumber());
+        rowNumber.setText(getRowNumber());
+        seatNumber.setText(getSeatNumber());
 
         backButton.setOnClickListener(v -> finish());
         closeButton.setOnClickListener(v -> finish());

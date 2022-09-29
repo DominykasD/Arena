@@ -12,6 +12,10 @@
         android:theme="@style/Theme.Arena"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.LocationSeatActivity"
+            android:exported="false"
+            android:theme="@style/AppBar.NoActionBar_LoginRegistration" />
+        <activity
             android:name=".activities.LocationActivity"
             android:exported="false"
             android:theme="@style/AppBar.NoActionBar_LoginRegistration" />

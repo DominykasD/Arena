@@ -72,7 +72,7 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
                 cart.setFoodName(categories.get(position).getName());
                 cart.setFoodPrice(categories.get(position).getPrice());
                 cart.setFoodQuantity(holder.itemQuantity.getText().toString());
-                cart.setSubTotal(Integer.parseInt(cart.getFoodPrice()) * Integer.parseInt(cart.getFoodQuantity()));
+                cart.setSubTotal(Double.parseDouble(cart.getFoodPrice()) * Double.parseDouble(cart.getFoodQuantity()));
                 cartList = ((BaseActivity) context).getCartList();
                 cartList.add(cart);
 

@@ -36,11 +36,16 @@ public class CheckoutConfirmActivity extends BaseActivity {
         TextView sum = findViewById(R.id.textView38);
         TextView date = findViewById(R.id.textView37);
         TextView sectorNumber = findViewById(R.id.textView41);
+        TextView rowNumber = findViewById(R.id.textView42);
+        TextView seatNumber = findViewById(R.id.textView43);
         ImageView backButton = findViewById(R.id.imageView5);
         ImageView closeButton = findViewById(R.id.imageView4);
         Button button = findViewById(R.id.button);
 
         sectorNumber.setText(getSectorNumber());
+        rowNumber.setText(getRowNumber());
+        seatNumber.setText(getSeatNumber());
+
         cartList = getCartList();
 
         backButton.setOnClickListener(v -> finish());
@@ -70,10 +75,18 @@ public class CheckoutConfirmActivity extends BaseActivity {
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setContentView(R.layout.dialog_confirmation);
 
+        TextView sectorNumber = dialog.findViewById(R.id.textView41);
+        TextView rowNumber = dialog.findViewById(R.id.textView42);
+        TextView seatNumber = dialog.findViewById(R.id.textView43);
         TextView closeButton = dialog.findViewById(R.id.textView54);
         Button button = dialog.findViewById(R.id.button7);
 
+        sectorNumber.setText(getSectorNumber());
+        rowNumber.setText(getRowNumber());
+        seatNumber.setText(getSeatNumber());
+
         closeButton.setOnClickListener(v -> dialog.dismiss());
+        button.setOnClickListener(v -> dialog.dismiss());
 
 
 
