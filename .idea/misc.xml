@@ -59,7 +59,9 @@
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/arrow_down.xml" value="0.195" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/arrow_right.xml" value="0.195" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/categories_circle.xml" value="0.223" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/filter.xml" value="0.3675" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/gray_background.xml" value="0.2925" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/gray_border.xml" value="0.3675" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/ic_add.xml" value="0.325" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/ic_outline_credit_card_24.xml" value="0.158" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/drawable/orange_background.xml" value="0.2925" />
@@ -78,7 +80,10 @@
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/activity_ckeckout_personal_info.xml" value="0.33" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/activity_main.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/activity_main_menu.xml" value="0.33" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/activity_main_menu_copy.xml" value="0.35733695652173914" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/activity_order_status.xml" value="0.33" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/activity_register.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/activity_splash_screen.xml" value="0.35733695652173914" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/app_bar_category.xml" value="0.33" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/app_bar_checkout.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/eiman/StudioProjects/arena/app/src/main/res/layout/app_bar_main.xml" value="0.17831813576494426" />

@@ -86,6 +86,13 @@
     <string name="Capital_vieta">/ Vieta</string>
     <string name="vieta_sektorius">Pristatymo vieta / Sektorius</string>
     <string name="pasirinkite_vieta">Pasirinkite vietą</string>
+    <string name="uzsakymo_kodas">#za12345</string>
+    <string name="uzsakymo_statusas">Užsakymo statusas</string>
+    <string name="uzsakymas_primtas">UŽSAKYMAS PRIMTAS</string>
+    <string name="ruosiama">RUOŠIAMA</string>
+    <string name="pakuojama">PAKUOJAMA</string>
+    <string name="pakeliui">PAKELIUI</string>
+    <string name="pristatyta">PRISTATYTA</string>
     <string name="j_s_u_sakymas_patvirtintas">Jūsų užsakymas patvirtintas</string>
     <string name="u_sakymas_bus_pristatytas">Užsakymas bus pristatytas į</string>
     <string name="u_sakymo_nr">Užsakymo Nr.</string>
