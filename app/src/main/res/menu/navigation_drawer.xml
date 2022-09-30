@@ -32,8 +32,8 @@
     <item android:title="">
         <menu>
             <item
-                android:id="@+id/item_duk"
-                android:title="D.U.K"
+                android:id="@+id/item_information"
+                android:title="Informacija"
                 />
             <item
                 android:id="@+id/item_email"

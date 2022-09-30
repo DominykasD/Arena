@@ -98,4 +98,18 @@
     <string name="u_sakymo_nr">Užsakymo Nr.</string>
     <string name="za12345">#za12345</string>
     <string name="steb_ti_u_sakymo_status">Stebėti užsakymo statusą</string>
+    <string name="naudojimo_taisykleslt">1. Norint naudotis programėlės teikiamomis paslaugomis vartotojas turi būti susikūręs paskyrą ir prie jos prisijungęs. Registracija reikalauja įvesti asmens elektroninį paštą, telefono numerį ir slaptažodį. Prisijungiant vartotojui tereikia įvesti savo paštą ir slaptažodį.
+	2. Prisijungus yra atidaromas pagrindinis meniu. Pagrindiniame meniu galima paspausti ženkliuką lango viršutiniame kairiajame kampe, kad atidaryti nustatymus.
+		a. Nustatymų langas turi kelias skiltis. Nustatymų lango viršuje yra vieta vartotojo nuotraukai ir vardui, pavardei. Žemiau, yra skiltys „Mano profilis“, „Mėgstamiausi“, „Mano krepšelis“, „Mano užsakymai“, „Nuolaidos“. Nustatymų lango apačioje yra „D.U.K“ ir kontaktai, kuriais vartotojas gali kreiptis, jei kas negerai su programėle ar paslauga.
+		b. Prieš renkantis patiekalus užsisakymui, pagrindinio meniu lango viršuje, centre, vartotojas turi pasirinkti buvimo vietą, kur užsakyti patiekalai turės būti pristatyti, pvz. Žalgirio arena.
+		c. Pagrindiniame meniu lange matomos valgių pasirinkimo skiltys: „Akcijos“, „Naujienos“, „Kategorijos“. „Akcijos“ skiltyje rodomi patiekalai su akcija, „Naujienos“ skiltyje rodomi naujausi patiekalai, „Kategorijos“ skiltyje rodomos kategorijos pagal kurias lengviau rasti norimą patiekalą, pvz. blynai, gėrimai, užkandžiai.
+		d. Pagrindinio meniu lango apačioje yra mygtukas pakviesti draugą atsisiųsti ir prisiregistruoti prie programėlės.
+	3. Pasirinkus ir paspaudus ant kokios kategorijos, atidaromas smulkesnis meniu. Vartotojui norint išeiti iš smulkesnio meniu ir grįžti į pagrindinį meniu reikia paspausti atgal rodyklę lango viršutiniame kairiajame kampe.
+	4. Smulkesniajame meniu vartotojas gali pasirinkti norimus patiekalus ir jų kiekius spausdamas pliuso arba minuso ženklą puslapio dešinėje. Lengviau susirinkti norimus patiekalus galima naudojant filtrą. Filtras atidaromas paspaudžiant mygtuką smulkesniojo meniu viršutiniame dešiniajame kampe.
+	5. Į krepšelį galima nueiti spaudžiant krepšelio ženklą pagrindinio meniu viršutiniame dešiniajame kampe arba spaudžiant ant „Mano krepšelis“ skilties nustatymų lange. Krepšelyje galima padidinti ar sumažinti pasirinktų patiekalų kiekius ir pašalinti nenorimus. Norėdamas pirkti pasirinktą krepšelį, vartotojas turi paspausti mygtuką „Tęsti“, kuris yra po „Viso“ sumos. Tada, atsidarys apmokėjimo langas.
+	6. Apmokėjimo lange vartotojas turi suvesti savo kontaktinę informaciją – vardą, pavardę ir telefono numerį.
+	7. Po kontaktinių duomenų įvedimo sekančiame apmokėjimo lange reikia pasirinkti pristatymo vietą (pvz. Žalgirio arenos 107 sektoriaus 10 eilė, 4 vieta). Atsidariusiame naujame lange rodoma arena, kur galima pasirinkti sektorių, paspaudus toliau atsidaro vietos pasirinkimas, kur matomos galimos vietos.
+	8. Pasirinkus pristatymo vietą ir paspaudus mygtuką „Tęsti“, atsidaro naujas langas, kuriame galima pasirinkti mokėjimo būdą. Tarp mokėjimo langą galima naviguoti, t.y. grįžti į krepšelio langą, paspaudžiant „x“ ženklą.
+	9. Po kontaktinės informacijos įvedimo reikia nurodyti, pridėti arba pasirinkti, kortelę, su kuria bus mokama už užsakymą.
+	10. Paskutinis užsakymo žingsnis – užsakymo patvirtinimas. Užsakymo patvirtinimo lange bus matyti detalės, vaizduojančios krepšelį ir pristatymo vietą. Užsakymui patvirtinti vartotojas turi spausti mygtuką „Užsakyti“, kas išmes patvirtinimo langą, kuriame matosi vieta, užsakymo numeris ir t.t. Paspaudus ant mygtuką „Stebėti užsakymo statusą“ rodomas statuso langas, kuriame galima sekti patvirtinto užsakymo eigą.</string>
 </resources>

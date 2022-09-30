@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -13,13 +15,17 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.arena.R;
+import com.example.arena.adapters.NewsAdapter;
 import com.example.arena.models.Category;
+import com.google.android.material.navigation.NavigationView;
 
+import java.util.ArrayList;
 import java.util.Objects;
 
 public class MainMenuActivity extends AppCompatActivity {
 
     private DrawerLayout mDrawer;
+    private NavigationView navDraw;
     private Category category;
     private TextView categoryName;
 
@@ -30,14 +36,17 @@ public class MainMenuActivity extends AppCompatActivity {
 
         category = new Category();
 
-        Toolbar toolbar = findViewById(R.id.toolbarCheckout);
+        Toolbar toolbar = findViewById(R.id.toolbarMain);
         mDrawer = findViewById(R.id.drawer_layout);
+        navDraw = findViewById(R.id.nav_view);
         categoryName = findViewById(R.id.categoryText);
         ImageView imageCheckout = findViewById(R.id.imageCheckout);
 
         // Set a Toolbar to replace Actionbar
         setSupportActionBar(toolbar);
         Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(false);
+        // Setup drawer view click listeners
+        setupDrawerContent(navDraw);
 
 
         // Open Category activity
@@ -47,6 +56,40 @@ public class MainMenuActivity extends AppCompatActivity {
         // Open Checkout activity
         imageCheckout.setOnClickListener(v -> openCheckoutActivity());
 
+        ArrayList<String> foodNew = new ArrayList<>();
+        foodNew.add("food1");
+        foodNew.add("food2");
+        foodNew.add("food3");
+        foodNew.add("food4");
+        foodNew.add("food5");
+        foodNew.add("food6");
+
+
+        // Set up News recycler view
+        RecyclerView recyclerView = findViewById(R.id.recview_news);
+        recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
+        NewsAdapter newsAdapter = new NewsAdapter(this, foodNew);
+        recyclerView.setAdapter(newsAdapter);
+
+    }
+
+    private void setupDrawerContent(NavigationView navigationView) {
+        navigationView.setNavigationItemSelectedListener(item -> {
+            selectDrawerItem(item);
+            return true;
+        });
+    }
+
+    private void selectDrawerItem(MenuItem item) {
+        if (item.getItemId() == R.id.item_orders) {
+            Intent intent = new Intent(this, OrderActivity.class);
+            startActivity(intent);
+        }
+        if (item.getItemId() == R.id.item_information) {
+            Intent intent = new Intent(this, InfoActivity.class);
+            startActivity(intent);
+        }
+        mDrawer.closeDrawers();
     }
 
     @SuppressLint("SetTextI18n")
