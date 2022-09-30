@@ -86,7 +86,11 @@ public class CheckoutConfirmActivity extends BaseActivity {
         seatNumber.setText(getSeatNumber());
 
         closeButton.setOnClickListener(v -> dialog.dismiss());
-        button.setOnClickListener(v -> dialog.dismiss());
+        button.setOnClickListener(v -> {
+            dialog.dismiss();
+            Intent intent = new Intent(this, OrderActivity.class);
+            startActivity(intent);
+        });
 
 
 
