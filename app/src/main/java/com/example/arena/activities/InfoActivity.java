@@ -10,8 +10,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.example.arena.BuyingRulesltFragment;
 import com.example.arena.R;
 import com.example.arena.fragments.InstructionltFragment;
+import com.example.arena.fragments.InstructionsenFragment;
 
 public class InfoActivity extends AppCompatActivity {
 
@@ -25,6 +27,9 @@ public class InfoActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar2);
         TextView instructionsLT = findViewById(R.id.textView63);
+        TextView instructionsEN = findViewById(R.id.textView65);
+        TextView buyingRulesLT = findViewById(R.id.textView66);
+        TextView buyingRulesEN = findViewById(R.id.textView67);
         ConstraintLayout instructionButtons = findViewById(R.id.instructionButtons);
 
         toolbar.setTitle("Informacija");
@@ -47,6 +52,42 @@ public class InfoActivity extends AppCompatActivity {
             fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
 
             toolbar.setTitle("Naudojimo taisyklės LT");
+        });
+
+        buyingRulesLT.setOnClickListener(v -> {
+
+            instructionButtons.setVisibility(View.GONE);
+
+            fragmentClass = BuyingRulesltFragment.class;
+
+            try {
+                fragment = (Fragment) fragmentClass.newInstance();
+            } catch (IllegalAccessException | InstantiationException e) {
+                e.printStackTrace();
+            }
+
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+
+            toolbar.setTitle("Pirkimo taisyklės LT");
+        });
+
+        instructionsEN.setOnClickListener(v -> {
+
+            instructionButtons.setVisibility(View.GONE);
+
+            fragmentClass = InstructionsenFragment.class;
+
+            try {
+                fragment = (Fragment) fragmentClass.newInstance();
+            } catch (IllegalAccessException | InstantiationException e) {
+                e.printStackTrace();
+            }
+
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+
+            toolbar.setTitle("Naudojimo taisyklės EN");
         });
 
 

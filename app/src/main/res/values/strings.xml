@@ -119,4 +119,34 @@
     <string name="brangiausios_vir_uje">Brangiausios viršuje</string>
     <string name="gaminimo_laikas">Gaminimo laikas</string>
     <string name="geriausiai_vertintos">Geriausiai įvertintos</string>
+    <string name="naudojimo_taisykles_en">1. To use the services provided by the app, the user must have created an account and logged into it. Registration requires entering a user’s email, phone number and password. When logging in, the user only needs to enter his email and password.\n
+        2. After logging in, the main menu is opened. In the main menu, the user may click on the icon in the upper left corner of the window to open the settings.\n
+        \ta. The settings window has several sections. At the top of the settings windows, there is a place for the user’s photo and name. Below, there are sections “My profile”, “Favorites”, “My cart”, “My orders”, “Discounts”. At the bottom of the settings window is the “FAQ” and contacts that the user may use if there is something wrong with the app or the service.\n
+        \tb. Before choosing dishes for ordering, the user must select the location of delivery at the center of the top of the main menu window, e.g., Žalgiris Arena.\n
+        \tc. In the main menu window, there are multiple sections such as “Promotions”, “News”, “Categories”. The “Promotions” section shows dishes with a discount, the “News” section shows the latest dishes, the “Category” section shows categories that make it easier to find the desired dish, e.g., pancakes, drinks, snacks.\n
+        \td. At the bottom of the main menu window is a button to invite a friend to download and register for the app.\n
+        3. After selecting and clicking on a category, a sub-menu opens. The user needs to press the back arrow in the upper left corner of the window to exit the sub-menu and return to the main menu.\n
+        4. In the sub-menu, the user may select the desired dishes and their quantities by pressing the plus and minus signs on the right side of the page near each dish. It is easier to choose the wanted dishes using a filter. The filter is opened by pressing the icon in the upper right corner of the sub- menu.\n
+        5. The user may enter the cart by clicking on the cart icon in the upper right corner of the main menu or by clicking on the “My cart” icon in the settings window. To purchase the selected cart, the user must click on the “Continue” button which is located below the “Total” amount. Then, the payment window will open.\n
+        6. In the payment window, the user must enter his contact information – name, surname, and phone number.\n
+        7. After entering the user’s contact data, in the next payment window, the user needs to choose a concrete place of delivery. The new window that opens shows the arena where the user must select a sector. Upon clicking on the chosen sector and opening the location selection, the user must choose between available seats. The final chosen location format will be something like Žalgiris Arena, Sector 107, Row 10, Seat 4. 8. After choosing the place of delivery and pressing the “Continue” button, a new window opens where the user must choose the payment method. The user may navigate between the payment windows, i.e., return to the cart window, by pressing the “x” sign.\n
+        9. After entering the contact information, it is necessary to specify, add or select the card that will be used to pay for the order.\n
+        10. The last step of the order is order confirmation. In the order confirmation window, there will be details representing the cart and delivery location. To confirm the order, the user must press the “Order” button which will cause a confirmation window showing the location, order number etc. to pop up. After clicking on the “Monitor order status” button, a status window is displayed where the user can follow the progress of the confirmed order.\n
+    </string>
+    <string name="pirkimo_taisykles_lt">1. Bendrosios nuostatos\n
+        \t1.1. Šios prekių pirkimo-pardavimo taisyklės (toliau – „Taisyklės“) nustato bendrąsias naudojimo šia programėle sąlygas. Taisyklės yra taikomos, kai Pirkėjas renkasi, užsako ir perka programėlėje siūlomas prekes.\n
+        \t1.2. Programėlė yra skirta maisto užsakymui, orientuota į užsakyto maisto pristatymą Žalgirio arenoje.\n
+        \t1.3. Pirkėju šiose Taisyklėse yra bet kuris asmuo, perkantis maistą šia programėle. Naudotis programėle ir joje pirkti turi teisę asmenys virš 14 metų.\n
+        \t1.4. Pirkėjui nesuteikiama teisė pateikti maisto užsakymo, jeigu jis nėra susipažinęs su Taisyklėmis ir (ar) su jomis nesutinka.\n
+        2. Registracija\n
+        \t2.1. Pirkėjas, norėdamas naudotis šia programėle ir pirkti joje siūlomas prekes, privalo užsiregistruoti pateikdamas šiuos Pirkėjo asmens duomenis: elektroninį paštą, telefono numerį ir slaptažodį.\n
+        \t2.2. Pirkėjas yra atsakingas, kad registracijos duomenys būtų tikslūs, teisingi ir išsamūs. Pirkėjas turi teisę bet kuriuo momentu nevaržomai keisti registracijos duomenis.\n
+        \t3. Prekių kainos, apmokėjimo tvarka, komplektavimas, pristatymas, grąžinimas\n
+        \t3.1. Prekių kainos yra eurais su PVM. Prekės Pirkėjui parduodamos kainomis, galiojančiomis užsakymo pateikimo metu.\n
+        \t3.2. Naudodamasis šia programėlė Pirkėjas įsipareigoja užsakymo metu nurodyti tikslią prekių pristatymo vietą.\n
+        \t3.3. Pirkėjas atsiskaito už prekes vienu iš šių būdų: Apmokėjimas elektronine bankininkyste, Apmokėjimas užsakymo metu naudojantis mokėjimo kortelėmis, Apmokėjimas grynaisiais pinigais, Apmokėjimas naudojantis mokėjimo kortelėmis.\n
+        \t3.4. Patvirtindamas užsakymą Pirkėjas įsipareigoja priimti užsakytas prekes ir už jas sumokėti sutartą kainą.\n
+        \t3.5. PVM sąskaitą faktūrą Tarpininkas išrašo ir Pirkėjui pateikia Pirkėjo Registracijos anketoje nurodytu elektroniniu paštu per 3 (tris) darbo dienas po prekių pristatymo.\n
+        \t3.6. Pirkėjui priėmus Tarpininko pristatytas prekes, jos negali būti grąžinamos.
+    </string>
 </resources>
