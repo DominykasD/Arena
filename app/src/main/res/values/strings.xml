@@ -113,4 +113,10 @@
 	9. Po kontaktinės informacijos įvedimo reikia nurodyti, pridėti arba pasirinkti, kortelę, su kuria bus mokama už užsakymą.\n
 	10. Paskutinis užsakymo žingsnis – užsakymo patvirtinimas. Užsakymo patvirtinimo lange bus matyti detalės, vaizduojančios krepšelį ir pristatymo vietą. Užsakymui patvirtinti vartotojas turi spausti mygtuką „Užsakyti“, kas išmes patvirtinimo langą, kuriame matosi vieta, užsakymo numeris ir t.t. Paspaudus ant mygtuką „Stebėti užsakymo statusą“ rodomas statuso langas, kuriame galima sekti patvirtinto užsakymo eigą.\n
     </string>
+    <string name="filtras">Filtras</string>
+    <string name="perkamiausios_prek_s">Perkamiausios prekės</string>
+    <string name="pigiausios_vir_uje">Pigiausios viršuje</string>
+    <string name="brangiausios_vir_uje">Brangiausios viršuje</string>
+    <string name="gaminimo_laikas">Gaminimo laikas</string>
+    <string name="geriausiai_vertintos">Geriausiai įvertintos</string>
 </resources>
