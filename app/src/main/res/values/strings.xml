@@ -98,6 +98,13 @@
     <string name="u_sakymo_nr">Užsakymo Nr.</string>
     <string name="za12345">#za12345</string>
     <string name="steb_ti_u_sakymo_status">Stebėti užsakymo statusą</string>
+    <string name="uzsaugoti">Užsaugoti</string>
+    <string name="current_password">Dabartinis slaptažodis</string>
+    <string name="favorites">Mėgstamiausi</string>
+    <string name="offers">Nuolaidos</string>
+    <string name="contacts">Kontaktai</string>
+    <string name="arena_Telefon">+37046763216</string>
+    <string name="arena_email">arena@gmail.com</string>
     <string name="naudojimo_taisykleslt">1. Norint naudotis programėlės teikiamomis paslaugomis vartotojas turi būti susikūręs paskyrą ir prie jos prisijungęs. Registracija reikalauja įvesti asmens elektroninį paštą, telefono numerį ir slaptažodį. Prisijungiant vartotojui tereikia įvesti savo paštą ir slaptažodį.\n
 	2. Prisijungus yra atidaromas pagrindinis meniu. Pagrindiniame meniu galima paspausti ženkliuką lango viršutiniame kairiajame kampe, kad atidaryti nustatymus.\n
 		\ta. Nustatymų langas turi kelias skiltis. Nustatymų lango viršuje yra vieta vartotojo nuotraukai ir vardui, pavardei. Žemiau, yra skiltys „Mano profilis“, „Mėgstamiausi“, „Mano krepšelis“, „Mano užsakymai“, „Nuolaidos“. Nustatymų lango apačioje yra „D.U.K“ ir kontaktai, kuriais vartotojas gali kreiptis, jei kas negerai su programėle ar paslauga.\n
