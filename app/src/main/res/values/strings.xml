@@ -98,4 +98,11 @@
     <string name="u_sakymo_nr">Užsakymo Nr.</string>
     <string name="za12345">#za12345</string>
     <string name="steb_ti_u_sakymo_status">Stebėti užsakymo statusą</string>
+    <string name="uzsaugoti">Užsaugoti</string>
+    <string name="current_password">Dabartinis slaptažodis</string>
+    <string name="favorites">Mėgstamiausi</string>
+    <string name="offers">Nuolaidos</string>
+    <string name="contacts">Kontaktai</string>
+    <string name="arena_Telefon">+37046763216</string>
+    <string name="arena_email">arena@gmail.com</string>
 </resources>
