@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.BuyingRulesltFragment">
+    tools:context=".fragments.BuyingRulesEnFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/pirkimo_taisykles_lt" />
+        android:text="@string/buying_rules_en" />
 
 </FrameLayout>

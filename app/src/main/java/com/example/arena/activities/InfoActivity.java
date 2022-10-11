@@ -10,7 +10,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-import com.example.arena.BuyingRulesltFragment;
+import com.example.arena.fragments.BuyingRulesEnFragment;
+import com.example.arena.fragments.BuyingRulesltFragment;
 import com.example.arena.R;
 import com.example.arena.fragments.InstructionltFragment;
 import com.example.arena.fragments.InstructionsenFragment;
@@ -54,6 +55,24 @@ public class InfoActivity extends AppCompatActivity {
             toolbar.setTitle("Naudojimo taisyklės LT");
         });
 
+        instructionsEN.setOnClickListener(v -> {
+
+            instructionButtons.setVisibility(View.GONE);
+
+            fragmentClass = InstructionsenFragment.class;
+
+            try {
+                fragment = (Fragment) fragmentClass.newInstance();
+            } catch (IllegalAccessException | InstantiationException e) {
+                e.printStackTrace();
+            }
+
+            FragmentManager fragmentManager = getSupportFragmentManager();
+            fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+
+            toolbar.setTitle("Naudojimo taisyklės EN");
+        });
+
         buyingRulesLT.setOnClickListener(v -> {
 
             instructionButtons.setVisibility(View.GONE);
@@ -72,11 +91,11 @@ public class InfoActivity extends AppCompatActivity {
             toolbar.setTitle("Pirkimo taisyklės LT");
         });
 
-        instructionsEN.setOnClickListener(v -> {
+        buyingRulesEN.setOnClickListener(v -> {
 
             instructionButtons.setVisibility(View.GONE);
 
-            fragmentClass = InstructionsenFragment.class;
+            fragmentClass = BuyingRulesEnFragment.class;
 
             try {
                 fragment = (Fragment) fragmentClass.newInstance();
@@ -87,8 +106,9 @@ public class InfoActivity extends AppCompatActivity {
             FragmentManager fragmentManager = getSupportFragmentManager();
             fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
 
-            toolbar.setTitle("Naudojimo taisyklės EN");
+            toolbar.setTitle("Pirkimo taisyklės EN");
         });
+
 
 
     }

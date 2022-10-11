@@ -149,4 +149,20 @@
         \t3.5. PVM sąskaitą faktūrą Tarpininkas išrašo ir Pirkėjui pateikia Pirkėjo Registracijos anketoje nurodytu elektroniniu paštu per 3 (tris) darbo dienas po prekių pristatymo.\n
         \t3.6. Pirkėjui priėmus Tarpininko pristatytas prekes, jos negali būti grąžinamos.
     </string>
+    <string name="buying_rules_en">1. General provisions\n
+        \t1.1. These rules for the purchase and sale of the goods (hereinafter referred to as “the rules”) determine the general conditions of use of this application. The rules are applied when the customer chooses, orders, and buys the goods offered in the app.\n
+        \t1.2. This app is intended for ordering food, focused on the delivery of the ordered food in the Žalgirio arena\n
+        \t1.3. A customer in these Rules is any person who orders food through this app. People over 14 years of age have the right to use the app and make purchases through it.\n
+        \t1.4. The customer is not given the right to place an order if he is not familiar with the Rules and/or doesn’t agree with them.\n
+        2. Registration\n
+        \t2.1. To use this application and its services, the customer must register by providing the following personal data: email, phone number and password.\n
+        \t2.2. The customer is responsible for keeping the registration details accurate, correct, and complete. The customer has the right to freely change the registration data at any time.\n
+        3. Product prices, payment procedures, order assembly, delivery, return\n
+        \t3.1. Product prices are in euros with VAT. Goods are sold to the customer at the prices valid at the time of placing the order.\n
+        \t3.2. By using this app, the customer commits to specify a correct and exact place of delivery of the goods during the order.\n
+        \t3.3. The customer pays for the order in one of the following ways: Payment by electronic banking, Payment by payment cards at the time of the ordering, Payment by cash, Payment by payment cards at the time of delivery.\n
+        \t3.4. By confirming the order, the customer commits to being in the agreed upon place and time of the delivery to accept the ordered goods and paying the agreed price for them.\n
+        \t3.5. The VAT invoice is drawn up by the Intermediary and submitted to the customer by the email specified in the customer’s registration form within 3 (three) working days after the delivery of the goods.\n
+        \t3.6. After the customer accepts the goods delivered by the Intermediary, they cannot be returned.
+    </string>
 </resources>
