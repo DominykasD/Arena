@@ -172,4 +172,6 @@
         \t3.5. The VAT invoice is drawn up by the Intermediary and submitted to the customer by the email specified in the customer’s registration form within 3 (three) working days after the delivery of the goods.\n
         \t3.6. After the customer accepts the goods delivered by the Intermediary, they cannot be returned.
     </string>
+    <string name="i_saugoti">Išsaugoti</string>
+    <string name="mano_profilis">Mano profilis</string>
 </resources>

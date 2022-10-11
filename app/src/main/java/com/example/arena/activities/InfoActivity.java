@@ -6,8 +6,10 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.arena.fragments.BuyingRulesEnFragment;
@@ -27,6 +29,7 @@ public class InfoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_information);
 
         Toolbar toolbar = findViewById(R.id.toolbar2);
+        ImageView closeButton = findViewById(R.id.imageView8);
         TextView instructionsLT = findViewById(R.id.textView63);
         TextView instructionsEN = findViewById(R.id.textView65);
         TextView buyingRulesLT = findViewById(R.id.textView66);
@@ -35,6 +38,11 @@ public class InfoActivity extends AppCompatActivity {
 
         toolbar.setTitle("Informacija");
         toolbar.setTitleTextColor(getResources().getColor(R.color.white));
+
+        closeButton.setOnClickListener(v -> {
+            Intent intent = new Intent(this, MainMenuActivity.class);
+            startActivity(intent);
+        });
 
         fragment = null;
         instructionsLT.setOnClickListener(v -> {

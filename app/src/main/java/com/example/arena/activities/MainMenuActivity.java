@@ -11,9 +11,12 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.example.arena.ContactActivity;
+import com.example.arena.ProfileActivity;
 import com.example.arena.R;
 import com.example.arena.adapters.NewsAdapter;
 import com.example.arena.models.Category;
@@ -41,6 +44,18 @@ public class MainMenuActivity extends AppCompatActivity {
         navDraw = findViewById(R.id.nav_view);
         categoryName = findViewById(R.id.categoryText);
         ImageView imageCheckout = findViewById(R.id.imageCheckout);
+        // Header
+        View headerLayout = navDraw.getHeaderView(0);
+        TextView closeButton = headerLayout.findViewById(R.id.textView3);
+        TextView settings = headerLayout.findViewById(R.id.text_settings);
+
+        // Header click listeners
+        closeButton.setOnClickListener(v -> mDrawer.close());
+
+        settings.setOnClickListener(v -> {
+            Intent intent = new Intent(this, SettingsActivity.class);
+            startActivity(intent);
+        });
 
         // Set a Toolbar to replace Actionbar
         setSupportActionBar(toolbar);
@@ -81,12 +96,32 @@ public class MainMenuActivity extends AppCompatActivity {
     }
 
     private void selectDrawerItem(MenuItem item) {
+        if (item.getItemId() == R.id.item_profile) {
+            Intent intent = new Intent(this, ProfileActivity.class);
+            startActivity(intent);
+        }
         if (item.getItemId() == R.id.item_orders) {
             Intent intent = new Intent(this, OrderActivity.class);
             startActivity(intent);
         }
         if (item.getItemId() == R.id.item_information) {
             Intent intent = new Intent(this, InfoActivity.class);
+            startActivity(intent);
+        }
+        if (item.getItemId() == R.id.item_favorites) {
+            Intent intent = new Intent(this, FavoriteActivity.class);
+            startActivity(intent);
+        }
+        if (item.getItemId() == R.id.item_cart) {
+            Intent intent = new Intent(this, CheckoutActivity.class);
+            startActivity(intent);
+        }
+        if (item.getItemId() == R.id.item_discounts) {
+            Intent intent = new Intent(this, DiscountActivity.class);
+            startActivity(intent);
+        }
+        if (item.getItemId() == R.id.item_contact) {
+            Intent intent = new Intent(this, ContactActivity.class);
             startActivity(intent);
         }
         mDrawer.closeDrawers();

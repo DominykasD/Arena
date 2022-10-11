@@ -36,16 +36,8 @@
                 android:title="Informacija"
                 />
             <item
-                android:id="@+id/item_email"
-                android:title="E-paštas"
-                />
-            <item
-                android:id="@+id/item_tel"
-                android:title="Skambinti"
-                />
-            <item
-                android:id="@+id/item_messages"
-                android:title="Pranešimai"
+                android:id="@+id/item_contact"
+                android:title="Kontaktai"
                 />
         </menu>
     </item>
