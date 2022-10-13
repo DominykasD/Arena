@@ -15,11 +15,12 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.arena.R;
+import com.example.arena.models.User;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     private final String URL = "http://10.0.2.2/ArenaServer/login.php";
 
@@ -66,6 +67,12 @@ public class MainActivity extends AppCompatActivity {
                 RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
                 requestQueue.add(stringRequest);
             }
+
+
+            User user = new User();
+            user.setEmail(email.getText().toString());
+
+            localStorage.setUser(user.getEmail());
         });
     }
 
@@ -79,5 +86,10 @@ public class MainActivity extends AppCompatActivity {
     private void openMainMenuActivity() {
         Intent intent = new Intent(this, MainMenuActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void updateTotalPrice() {
+
     }
 }

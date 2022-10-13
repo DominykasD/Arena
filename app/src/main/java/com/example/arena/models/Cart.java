@@ -6,6 +6,7 @@ public class Cart {
     private String foodPrice;
     private String foodQuantity;
     private double subTotal;
+    private String user_id;
 
     public Cart() { }
 
@@ -49,4 +50,11 @@ public class Cart {
         this.subTotal = subTotal;
     }
 
+    public String getUser_id() {
+        return user_id;
+    }
+
+    public void setUser_id(String user_id) {
+        this.user_id = user_id;
+    }
 }

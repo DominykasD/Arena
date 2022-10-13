@@ -67,12 +67,15 @@ public class CategoryAdapter extends RecyclerView.Adapter<CategoryAdapter.ViewHo
 
         holder.plusSymbol.setOnClickListener(v -> {
             if (Integer.parseInt(categories.get(position).getItemQuantity()) == 0) {
+
+                String user = ((BaseActivity) context).getUserEmail();
                 Cart cart = new Cart();
                 cart.setId(categories.get(position).getId());
                 cart.setFoodName(categories.get(position).getName());
                 cart.setFoodPrice(categories.get(position).getPrice());
                 cart.setFoodQuantity(holder.itemQuantity.getText().toString());
                 cart.setSubTotal(Double.parseDouble(cart.getFoodPrice()) * Double.parseDouble(cart.getFoodQuantity()));
+                cart.setUser_id(user);
                 cartList = ((BaseActivity) context).getCartList();
                 cartList.add(cart);
 

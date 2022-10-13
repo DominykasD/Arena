@@ -14,11 +14,12 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.arena.R;
+import com.example.arena.models.User;
 
 import java.util.HashMap;
 import java.util.Map;
 
-public class RegisterActivity extends AppCompatActivity {
+public class RegisterActivity extends BaseActivity {
 
     private final String URL = "http://10.0.2.2/ArenaServer/register.php";
     private EditText email, password, phoneNumber;
@@ -60,11 +61,21 @@ public class RegisterActivity extends AppCompatActivity {
                 requestQueue.add(stringRequest);
             }
 
+            User user = new User();
+            user.setEmail(email.getText().toString());
+
+            localStorage.setUser(user.getEmail());
+
         });
     }
 
     private void openMainActivity() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void updateTotalPrice() {
+
     }
 }

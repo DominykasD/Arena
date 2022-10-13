@@ -1,4 +1,4 @@
-package com.example.arena;
+package com.example.arena.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,14 +6,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
 
+import com.example.arena.R;
 import com.example.arena.activities.MainMenuActivity;
 
-public class ContactActivity extends AppCompatActivity {
+public class ProfileActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_contacts);
+        setContentView(R.layout.activity_profile);
 
         ImageView closeButton = findViewById(R.id.imageView4);
 

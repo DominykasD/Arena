@@ -18,7 +18,7 @@ import java.util.List;
 public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder>{
 
     private final Context context;
-    private List<String> foodNew = new ArrayList<>();
+    private List<String> foodNew;
 
     public NewsAdapter(Context context, List<String> foodNew) {
         this.context = context;

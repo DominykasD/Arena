@@ -6,8 +6,10 @@ import android.content.SharedPreferences;
 public class LocalStorage {
     private static final String CART = "CART";
     private static final String SECTOR = "SECTOR";
+    private static final String SECTORIMG = "SECTORIMG";
     private static final String ROW = "ROW";
     private static final String SEAT = "SEAT";
+    private static final String USER = "USER";
 
     private final SharedPreferences sharedPreferences;
 
@@ -15,7 +17,17 @@ public class LocalStorage {
         sharedPreferences = context.getSharedPreferences("Preferences", 0);
     }
 
+    public String getUser() {
+        if(sharedPreferences.contains(USER))
+            return sharedPreferences.getString(USER, null);
+        else return null;
+    }
 
+    public void setUser(String user) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(USER, user);
+        editor.apply();
+    }
 
     public String getCart() {
         if(sharedPreferences.contains(CART))
@@ -38,6 +50,18 @@ public class LocalStorage {
     public void setSector(String sector) {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString(SECTOR, sector);
+        editor.apply();
+    }
+
+    public int getSectorImage() {
+        if(sharedPreferences.contains(SECTORIMG))
+            return sharedPreferences.getInt(SECTORIMG, 0);
+        else return 0;
+    }
+
+    public void setSectorImage(int sectorImage) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(SECTORIMG, sectorImage);
         editor.apply();
     }
 

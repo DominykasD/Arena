@@ -3,6 +3,7 @@ package com.example.arena.activities;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -102,19 +103,143 @@ public class LocationActivity extends BaseActivity {
         Button button = findViewById(R.id.button);
 
         sectorNumber.setText(getSectorNumber());
+        SectorImageColor();
 
         button.setOnClickListener(v -> {
             Intent intent = new Intent(this, LocationSeatActivity.class);
             startActivity(intent);
         });
         closeButton.setOnClickListener(v -> {
-
-
             Intent intent = new Intent(this, CheckoutPersonalActivity.class);
             startActivity(intent);
         });
 
         sectorClickListeners();
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        Intent intent = new Intent(this, CheckoutPersonalActivity.class);
+        startActivity(intent);
+    }
+
+    private void SectorImageColor(){
+
+        if (getSectorImage() == R.drawable.sector101_red) {
+            sector101.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector103_red) {
+            sector103.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector105_red) {
+            sector105.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector107_red) {
+            sector107.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector109_red) {
+            sector109.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector111_red) {
+            sector111.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector113_red) {
+            sector113.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector119_red) {
+            sector119.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector121_red) {
+            sector121.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector123_red) {
+            sector123.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector125_red) {
+            sector125.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector127_red) {
+            sector127.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector129_red) {
+            sector129.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector131_red) {
+            sector131.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector133_red) {
+            sector133.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector135_red) {
+            sector135.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector301_red) {
+            sector301.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector303_red) {
+            sector303.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector305_red) {
+            sector305.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector305_red) {
+            sector307.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector309_red) {
+            sector309.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector311_red) {
+            sector311.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector313_red) {
+            sector313.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector315_red) {
+            sector315.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector317_red) {
+            sector317.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector319_red) {
+            sector319.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector321_red) {
+            sector321.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector323_red) {
+            sector323.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector325_red) {
+            sector325.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector327_red) {
+            sector327.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector329_red) {
+            sector329.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector331_red) {
+            sector331.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector333_red) {
+            sector333.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector335_red) {
+            sector335.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector337_red) {
+            sector337.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector339_red) {
+            sector339.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector341_red) {
+            sector341.setImageResource(getSectorImage());
+        }
+        if (getSectorImage() == R.drawable.sector343_red) {
+            sector343.setImageResource(getSectorImage());
+        }
     }
 
     @SuppressLint("SetTextI18n")
@@ -127,6 +252,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("101");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector101_red);
         });
 
         sector103.setOnClickListener(v -> {
@@ -136,6 +262,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("103");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector103_red);
         });
 
         sector105.setOnClickListener(v -> {
@@ -145,6 +272,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("105");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector105_red);
         });
 
         sector107.setOnClickListener(v -> {
@@ -154,6 +282,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("107");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector107_red);
         });
 
         sector109.setOnClickListener(v -> {
@@ -163,6 +292,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("109");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector109_red);
         });
 
         sector111.setOnClickListener(v -> {
@@ -172,6 +302,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("111");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector111_red);
         });
 
         sector113.setOnClickListener(v -> {
@@ -181,6 +312,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("113");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector113_red);
         });
 
         sector119.setOnClickListener(v -> {
@@ -190,6 +322,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("119");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector119_red);
         });
 
         sector121.setOnClickListener(v -> {
@@ -199,6 +332,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("121");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector121_red);
         });
 
         sector123.setOnClickListener(v -> {
@@ -208,6 +342,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("123");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector123_red);
         });
 
         sector125.setOnClickListener(v -> {
@@ -217,6 +352,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("125");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector125_red);
         });
 
         sector127.setOnClickListener(v -> {
@@ -226,6 +362,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("127");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector127_red);
         });
 
         sector129.setOnClickListener(v -> {
@@ -235,6 +372,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("129");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector129_red);
         });
 
         sector131.setOnClickListener(v -> {
@@ -244,6 +382,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("131");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector131_red);
         });
 
         sector133.setOnClickListener(v -> {
@@ -253,6 +392,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("133");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector133_red);
         });
 
         sector135.setOnClickListener(v -> {
@@ -262,6 +402,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("135");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector135_red);
         });
 
         sector301.setOnClickListener(v -> {
@@ -271,6 +412,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("301");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector301_red);
         });
 
         sector303.setOnClickListener(v -> {
@@ -280,6 +422,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("303");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector303_red);
         });
 
         sector305.setOnClickListener(v -> {
@@ -289,6 +432,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("305");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector305_red);
         });
 
         sector307.setOnClickListener(v -> {
@@ -298,6 +442,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("307");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector305_red);
         });
 
         sector309.setOnClickListener(v -> {
@@ -307,6 +452,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("309");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector309_red);
         });
 
         sector311.setOnClickListener(v -> {
@@ -316,6 +462,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("311");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector311_red);
         });
 
         sector313.setOnClickListener(v -> {
@@ -325,6 +472,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("313");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector313_red);
         });
 
         sector315.setOnClickListener(v -> {
@@ -334,6 +482,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("315");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector315_red);
         });
 
         sector317.setOnClickListener(v -> {
@@ -343,6 +492,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("317");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector317_red);
         });
 
         sector319.setOnClickListener(v -> {
@@ -352,6 +502,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("319");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector319_red);
         });
 
         sector321.setOnClickListener(v -> {
@@ -361,6 +512,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("321");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector321_red);
         });
 
         sector323.setOnClickListener(v -> {
@@ -370,6 +522,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("323");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector323_red);
         });
 
         sector325.setOnClickListener(v -> {
@@ -379,6 +532,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("325");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector325_red);
         });
 
         sector327.setOnClickListener(v -> {
@@ -388,6 +542,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("327");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector327_red);
         });
 
         sector329.setOnClickListener(v -> {
@@ -397,6 +552,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("329");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector329_red);
         });
 
         sector331.setOnClickListener(v -> {
@@ -406,6 +562,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("331");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector331_red);
         });
 
         sector333.setOnClickListener(v -> {
@@ -415,6 +572,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("333");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector333_red);
         });
 
         sector335.setOnClickListener(v -> {
@@ -424,6 +582,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("335");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector335_red);
         });
 
         sector337.setOnClickListener(v -> {
@@ -433,6 +592,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("337");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector337_red);
         });
 
         sector339.setOnClickListener(v -> {
@@ -442,6 +602,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("339");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector339_red);
         });
 
         sector341.setOnClickListener(v -> {
@@ -451,6 +612,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("341");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector341_red);
         });
 
         sector343.setOnClickListener(v -> {
@@ -460,6 +622,7 @@ public class LocationActivity extends BaseActivity {
             sectorNumber.setText("343");
 
             localStorage.setSector(sectorNumber.getText().toString());
+            localStorage.setSectorImage(R.drawable.sector343_red);
         });
     }
 

@@ -12,11 +12,11 @@
         android:theme="@style/Theme.Arena"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".activities.ProfileActivity"
             android:exported="false"
             android:theme="@style/AppBar.NoActionBar" />
         <activity
-            android:name=".ContactActivity"
+            android:name=".activities.ContactActivity"
             android:exported="false"
             android:theme="@style/AppBar.NoActionBar" />
         <activity

@@ -1,6 +1,5 @@
 package com.example.arena.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -15,8 +14,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.arena.ContactActivity;
-import com.example.arena.ProfileActivity;
 import com.example.arena.R;
 import com.example.arena.adapters.NewsAdapter;
 import com.example.arena.models.Category;
@@ -25,7 +22,7 @@ import com.google.android.material.navigation.NavigationView;
 import java.util.ArrayList;
 import java.util.Objects;
 
-public class MainMenuActivity extends AppCompatActivity {
+public class MainMenuActivity extends BaseActivity {
 
     private DrawerLayout mDrawer;
     private NavigationView navDraw;
@@ -62,7 +59,6 @@ public class MainMenuActivity extends AppCompatActivity {
         Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(false);
         // Setup drawer view click listeners
         setupDrawerContent(navDraw);
-
 
         // Open Category activity
         categoryName = new TextView(getApplicationContext());
@@ -210,4 +206,8 @@ public class MainMenuActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void updateTotalPrice() {
+
+    }
 }
