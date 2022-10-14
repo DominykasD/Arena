@@ -36,10 +36,11 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/pay_method_button"
         android:drawableTop="@drawable/ic_outline_credit_card_24"
-        android:drawableTint="@color/white"
+        android:drawableTint="#535353"
+        android:paddingTop="16dp"
         android:radius="30dp"
-        android:text="@string/kreditine_kortele"
 
+        android:text="@string/kreditine_kortele"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="#535353"
         android:textColorHighlight="#772222"

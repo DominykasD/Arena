@@ -174,4 +174,25 @@
     </string>
     <string name="i_saugoti">Išsaugoti</string>
     <string name="mano_profilis">Mano profilis</string>
+    <string name="information">Informacija</string>
+    <string name="mastercard">MasterCard</string>
+    <string name="visa">Visa</string>
+    <string name="prideti_kortele">Pridėti kortelę</string>
+    <string name="korteles_numeris">Kortelės numeris</string>
+    <string name="galioja_iki">Galioja iki</string>
+    <string name="miestas">Miestas</string>
+    <string name="atsiskaitymo_adresas">Atsiskaitymo adresas</string>
+    <string name="atsiskaitymo_adresas2">Atsiskaitymo adresas 2</string>
+    <string name="zip_post">Zip arba pašto kodas</string>
+    <string name="salis">Šalis</string>
+    <string name="saugumo_kodas">Saugumo kodas</string>
+    <string name="korteles_numeris_value">**** **** **** ****</string>
+    <string name="galioja_iki_value">MM/YYYY</string>
+    <string name="miestas_value">Miestas</string>
+    <string name="atsiskaitymo_adresas_value">Atsiskaitymo adresas</string>
+    <string name="atsiskaitymo_adresas2_value">Atsiskaitymo adresas 2</string>
+    <string name="zip_post_value">Zip arba pašto kodas</string>
+    <string name="salis_value">Šalis</string>
+    <string name="saugumo_kodas_value">***</string>
+
 </resources>

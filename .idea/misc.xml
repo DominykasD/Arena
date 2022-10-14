@@ -124,6 +124,13 @@
         <entry key="..\:/Users/eiman/StudioProjects/arena2/app/src/main/res/layout/recycler_view_favorites.xml" value="0.7816683831101957" />
         <entry key="..\:/Users/eiman/StudioProjects/arena2/app/src/main/res/layout/recycler_view_news.xml" value="0.18" />
         <entry key="..\:/Users/eiman/StudioProjects/arena2/app/src/main/res/menu/navigation_drawer.xml" value="0.33" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena4/app/src/main/res/layout/activity_add_card_info.xml" value="0.33" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena4/app/src/main/res/layout/activity_add_card_paypal.xml" value="0.21557971014492755" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena4/app/src/main/res/layout/activity_checkout.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena4/app/src/main/res/layout/activity_ckeckout_add_card_info.xml" value="0.33" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena4/app/src/main/res/layout/activity_ckeckout_confirm.xml" value="0.17831813576494426" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena4/app/src/main/res/layout/activity_ckeckout_personal_info.xml" value="0.25" />
+        <entry key="..\:/Users/eiman/StudioProjects/arena4/app/src/main/res/menu/navigation_drawer.xml" value="0.33" />
       </map>
     </option>
   </component>

@@ -33,12 +33,10 @@
         <menu>
             <item
                 android:id="@+id/item_information"
-                android:title="Informacija"
-                />
+                android:title="@string/information" />
             <item
                 android:id="@+id/item_contact"
-                android:title="Kontaktai"
-                />
+                android:title="@string/contacts" />
         </menu>
     </item>
 
