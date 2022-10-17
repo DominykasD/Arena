@@ -1,13 +1,16 @@
 package com.example.arena.activities;
 
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.arena.R;
 import com.example.arena.adapters.CheckoutAdapter;
@@ -20,8 +23,12 @@ import java.util.List;
 public class CheckoutActivity extends BaseActivity {
 
     private TextView priceWithoutPVM, pricePVM21, priceTotal;
+    private ConstraintLayout constraintLayout1;
+    private ConstraintLayout constraintLayout2;
+    private Button button;
+    private TextView orderDetails;
 
-    @SuppressLint("DefaultLocale")
+    @SuppressLint({"DefaultLocale", "SetTextI18n"})
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,11 +37,14 @@ public class CheckoutActivity extends BaseActivity {
         localStorage = new LocalStorage(getApplicationContext());
         gson = new Gson();
 
+        constraintLayout1 = findViewById(R.id.constraintLayout12);
+        constraintLayout2 = findViewById(R.id.constraintLayout15);
+        orderDetails = findViewById(R.id.textView21);
         TextView closeButton = findViewById(R.id.textView11);
         priceWithoutPVM = findViewById(R.id.priceWithoutPVM);
         pricePVM21 = findViewById(R.id.pricePVM21);
         priceTotal = findViewById(R.id.priceTotal);
-        Button button = findViewById(R.id.button8);
+        button = findViewById(R.id.button8);
 
         List<Cart> cartList;
 
@@ -50,7 +60,18 @@ public class CheckoutActivity extends BaseActivity {
             Intent intent = new Intent(this, MainMenuActivity.class);
             startActivity(intent);
         });
-        button.setOnClickListener(v -> openActivityCheckoutPersonal());
+        button.setOnClickListener(v -> {
+            if (cartList.size() != 0) openActivityCheckoutPersonal();
+            else {
+                Toast.makeText(this, "Krepšelis tuščias, pridėkite prekių", Toast.LENGTH_SHORT).show();
+            }
+        });
+        if (cartList.size() == 0) {
+            constraintLayout1.setVisibility(View.GONE);
+            constraintLayout2.setVisibility(View.GONE);
+            button.setVisibility(View.GONE);
+            orderDetails.setText("Jūsų prekių krepšelis tuščias");
+        }
 
         // Set up recycler view
         RecyclerView recyclerView = findViewById(R.id.recyclerViewCheckout);
@@ -65,17 +86,20 @@ public class CheckoutActivity extends BaseActivity {
     }
 
 
-    @SuppressLint("DefaultLocale")
+    @SuppressLint({"DefaultLocale", "SetTextI18n"})
     @Override
     public void updateTotalPrice() {
         priceWithoutPVM.setText(String.format("%.2f", getPriceWithoutPVM()));
         pricePVM21.setText(String.format("%.2f", getPriceWithoutPVM() * 0.21));
         priceTotal.setText(String.format("%.2f", getPriceWithoutPVM() * 0.21 + getPriceWithoutPVM()));
 
-        if (getPriceWithoutPVM() == 0.0) {
+        if (getPriceWithoutPVM() == 0.00) {
             invalidateOptionsMenu();
-            pricePVM21.setText("0.0");
-            priceTotal.setText("0.0");
+
+            constraintLayout1.setVisibility(View.GONE);
+            constraintLayout2.setVisibility(View.GONE);
+            button.setVisibility(View.GONE);
+            orderDetails.setText("Jūsų prekių krepšelis tuščias");
 
         }
     }

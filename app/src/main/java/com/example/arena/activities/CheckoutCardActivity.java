@@ -1,12 +1,8 @@
 package com.example.arena.activities;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -34,6 +30,7 @@ public class CheckoutCardActivity extends BaseActivity {
         Button butCardD = findViewById(R.id.button4);
         Button butPayPal = findViewById(R.id.button5);
         Button button = findViewById(R.id.button);
+        Button addCard = findViewById(R.id.button6);
 
         backButton.setOnClickListener(v -> finish());
         closeButton.setOnClickListener(v -> openCheckoutActivity());
@@ -74,6 +71,11 @@ public class CheckoutCardActivity extends BaseActivity {
                 butCardC.setSelected(false);
                 butCardD.setSelected(false);
             }
+        });
+
+        addCard.setOnClickListener(v -> {
+            Intent intent = new Intent(this, AddCardInfoActivity.class);
+            startActivity(intent);
         });
 
         button.setOnClickListener(v -> openCheckoutConfirmActivity());

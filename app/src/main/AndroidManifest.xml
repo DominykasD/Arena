@@ -12,6 +12,14 @@
         android:theme="@style/Theme.Arena"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.AddCardInfoActivity"
+            android:exported="false"
+            android:theme="@style/AppBar.NoActionBar" />
+        <activity
+            android:name=".activities.OrderActivity"
+            android:exported="false"
+            android:theme="@style/AppBar.NoActionBar" />
+        <activity
             android:name=".activities.ProfileActivity"
             android:exported="false"
             android:theme="@style/AppBar.NoActionBar" />
@@ -36,7 +44,7 @@
             android:exported="false"
             android:theme="@style/AppBar.NoActionBar" />
         <activity
-            android:name=".activities.OrderActivity"
+            android:name=".activities.OrderStatusActivity"
             android:exported="false"
             android:theme="@style/AppBar.NoActionBar" />
         <activity

@@ -9,12 +9,42 @@ public class LocalStorage {
     private static final String SECTORIMG = "SECTORIMG";
     private static final String ROW = "ROW";
     private static final String SEAT = "SEAT";
+    private static final String SEATIMG = "SEATIMG";
     private static final String USER = "USER";
+    private static final String NAME = "NAME";
+    private static final String SURNAME = "SURNAME";
+    private static final String TEL = "TEL";
 
     private final SharedPreferences sharedPreferences;
 
     public LocalStorage(Context context) {
         sharedPreferences = context.getSharedPreferences("Preferences", 0);
+    }
+
+    public String getUserInfoName() {
+        if(sharedPreferences.contains(NAME))
+            return sharedPreferences.getString(NAME, null);
+        else return null;
+    }
+
+    public String getUserInfoSurname() {
+        if(sharedPreferences.contains(SURNAME))
+            return sharedPreferences.getString(SURNAME, null);
+        else return null;
+    }
+
+    public String getUserInfoTel() {
+        if(sharedPreferences.contains(TEL))
+            return sharedPreferences.getString(TEL, null);
+        else return null;
+    }
+
+    public void setUserInfo(String name, String surname, String tel) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString(NAME, name);
+        editor.putString(SURNAME, surname);
+        editor.putString(TEL, tel);
+        editor.apply();
     }
 
     public String getUser() {
@@ -38,6 +68,12 @@ public class LocalStorage {
     public void setCart(String cart) {
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putString(CART, cart);
+        editor.apply();
+    }
+
+    public void deleteCart() {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.remove(CART);
         editor.apply();
     }
 
@@ -90,4 +126,15 @@ public class LocalStorage {
     }
 
 
+    public void setSeatImage(int seatImage) {
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putInt(SEATIMG, seatImage);
+        editor.apply();
+    }
+
+    public int getSeatImage() {
+        if(sharedPreferences.contains(SEATIMG))
+            return sharedPreferences.getInt(SEATIMG, 0);
+        else return 0;
+    }
 }

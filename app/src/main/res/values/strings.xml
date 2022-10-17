@@ -194,5 +194,8 @@
     <string name="zip_post_value">Zip arba pašto kodas</string>
     <string name="salis_value">Šalis</string>
     <string name="saugumo_kodas_value">***</string>
+    <string name="_15min">15min</string>
+    <string name="ruo_iama">Ruošiama</string>
+    <string name="pla_iau">Plačiau</string>
 
 </resources>

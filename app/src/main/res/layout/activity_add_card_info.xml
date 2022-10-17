@@ -14,7 +14,7 @@
         android:background="@drawable/orange_background"
         android:backgroundTintMode="add"
         android:foregroundTint="@color/colorPrimary"
-        android:text="@string/testi"
+        android:text="Pridėti"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textColor="@color/teal_700"
         android:textColorHighlight="#772222"
@@ -30,7 +30,7 @@
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="413dp"
-        android:layout_height="67dp"
+        android:layout_height="?attr/actionBarSize"
         android:background="@color/teal_700"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -43,85 +43,37 @@
         android:id="@+id/textView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="16dp"
         android:text="@string/mokejimo_budas"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintStart_toStartOf="@+id/radioGroup2"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
     <TextView
         android:id="@+id/textView79"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="156dp"
+        android:layout_marginTop="16dp"
         android:text="@string/korteles_numeris"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+        app:layout_constraintStart_toStartOf="@+id/radioGroup"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
 
     <TextView
         android:id="@+id/textView80"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
+        android:layout_marginTop="16dp"
         android:text="@string/galioja_iki"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toTopOf="@+id/textView79" />
-
-    <TextView
-        android:id="@+id/textView82"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/miestas"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="@+id/textView85"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName13" />
-
-    <TextView
-        android:id="@+id/textView86"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/atsiskaitymo_adresas"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toTopOf="@+id/textView82" />
-
-    <TextView
-        android:id="@+id/textView87"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/atsiskaitymo_adresas2"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toTopOf="@+id/textView83" />
-
-    <TextView
-        android:id="@+id/textView83"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="@string/zip_post"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toStartOf="@+id/textView82"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName11" />
-
-    <TextView
-        android:id="@+id/textView85"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:text="@string/salis"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        app:layout_constraintStart_toEndOf="@+id/textView81"
-        app:layout_constraintTop_toTopOf="@+id/textView81" />
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName7"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName7" />
 
     <TextView
         android:id="@+id/textView81"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="45dp"
         android:text="@string/saugumo_kodas"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         app:layout_constraintStart_toEndOf="@+id/textView80"
@@ -141,18 +93,12 @@
         app:layout_constraintTop_toTopOf="@+id/toolbar" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/toolbar"
-        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
-
-    <ImageView
         android:id="@+id/imageView5"
         android:layout_width="44dp"
         android:layout_height="35dp"
+        android:layout_marginStart="8dp"
         android:rotationY="190"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintStart_toStartOf="@+id/toolbar"
         app:layout_constraintTop_toTopOf="@+id/toolbar"
         app:srcCompat="@drawable/arrow_right" />
@@ -161,6 +107,7 @@
         android:id="@+id/radioGroup"
         android:layout_width="302dp"
         android:layout_height="94dp"
+        android:layout_marginTop="4dp"
         app:layout_constraintStart_toStartOf="@+id/textView26"
         app:layout_constraintTop_toBottomOf="@+id/textView26">
 
@@ -183,7 +130,9 @@
         android:id="@+id/editTextTextPersonName7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
         android:ems="10"
+        android:hint="1234 5678 9012 3456"
         android:inputType="textPersonName"
         app:layout_constraintStart_toStartOf="@+id/textView79"
         app:layout_constraintTop_toBottomOf="@+id/textView79" />
@@ -192,6 +141,7 @@
         android:id="@+id/editTextTextPersonName8"
         android:layout_width="95dp"
         android:layout_height="43dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/galioja_iki_value"
@@ -202,60 +152,44 @@
         android:id="@+id/editTextTextPersonName10"
         android:layout_width="106dp"
         android:layout_height="41dp"
+        android:layout_marginTop="4dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/saugumo_kodas_value"
         app:layout_constraintStart_toStartOf="@+id/textView81"
         app:layout_constraintTop_toBottomOf="@+id/textView81" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName11"
-        android:layout_width="142dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/miestas_value"
-        app:layout_constraintStart_toStartOf="@+id/textView82"
-        app:layout_constraintTop_toBottomOf="@+id/textView82" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:text="Kortelės tipas"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName15"
-        android:layout_width="142dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/atsiskaitymo_adresas_value"
-        app:layout_constraintStart_toStartOf="@+id/textView86"
-        app:layout_constraintTop_toBottomOf="@+id/textView86" />
+    <RadioGroup
+        android:id="@+id/radioGroup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/textView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView14">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName16"
-        android:layout_width="142dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/atsiskaitymo_adresas2_value"
-        app:layout_constraintStart_toStartOf="@+id/textView87"
-        app:layout_constraintTop_toBottomOf="@+id/textView87" />
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="5dp"
+            android:text="Debeto" />
 
-    <EditText
-        android:id="@+id/editTextTextPersonName13"
-        android:layout_width="142dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/salis_value"
-        app:layout_constraintStart_toStartOf="@+id/textView85"
-        app:layout_constraintTop_toBottomOf="@+id/textView85" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName12"
-        android:layout_width="142dp"
-        android:layout_height="41dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="@string/zip_post_value"
-        app:layout_constraintStart_toStartOf="@+id/textView83"
-        app:layout_constraintTop_toBottomOf="@+id/textView83" />
+        <RadioButton
+            android:id="@+id/radioButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kredito" />
+    </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -2,13 +2,16 @@ package com.example.arena.adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.arena.R;
@@ -103,10 +106,11 @@ public class CheckoutAdapter extends RecyclerView.Adapter<CheckoutAdapter.ViewHo
                         localStorage.setCart(cartStr);
                         ((CheckoutActivity) context).updateTotalPrice();
                     }
+
                 }
             }
-
         });
+
     }
 
     @Override
@@ -119,6 +123,10 @@ public class CheckoutAdapter extends RecyclerView.Adapter<CheckoutAdapter.ViewHo
         ImageView imageMinus, imagePlus;
         TextView textFoodName, textQuantity, textEurSymbol, textProductPrice,
                 priceWithoutPVM, pricePVM21, priceTotal;
+        ConstraintLayout constraintLayout1;
+        ConstraintLayout constraintLayout2;
+        Button button;
+        TextView orderDetails;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -136,6 +144,11 @@ public class CheckoutAdapter extends RecyclerView.Adapter<CheckoutAdapter.ViewHo
             priceWithoutPVM = itemView.findViewById(R.id.priceWithoutPVM);
             pricePVM21 = itemView.findViewById(R.id.pricePVM21);
             priceTotal = itemView.findViewById(R.id.priceTotal);
+
+            constraintLayout1 = itemView.findViewById(R.id.constraintLayout12);
+            constraintLayout2 = itemView.findViewById(R.id.constraintLayout15);
+            button = itemView.findViewById(R.id.button8);
+            orderDetails = itemView.findViewById(R.id.textView21);
 
         }
     }
