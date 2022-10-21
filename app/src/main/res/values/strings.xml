@@ -105,73 +105,162 @@
     <string name="contacts">Kontaktai</string>
     <string name="arena_Telefon">+37046763216</string>
     <string name="arena_email">arena@gmail.com</string>
-    <string name="naudojimo_taisykleslt">1. Norint naudotis programėlės teikiamomis paslaugomis vartotojas turi būti susikūręs paskyrą ir prie jos prisijungęs. Registracija reikalauja įvesti asmens elektroninį paštą, telefono numerį ir slaptažodį. Prisijungiant vartotojui tereikia įvesti savo paštą ir slaptažodį.\n
-	2. Prisijungus yra atidaromas pagrindinis meniu. Pagrindiniame meniu galima paspausti ženkliuką lango viršutiniame kairiajame kampe, kad atidaryti nustatymus.\n
-		\ta. Nustatymų langas turi kelias skiltis. Nustatymų lango viršuje yra vieta vartotojo nuotraukai ir vardui, pavardei. Žemiau, yra skiltys „Mano profilis“, „Mėgstamiausi“, „Mano krepšelis“, „Mano užsakymai“, „Nuolaidos“. Nustatymų lango apačioje yra „D.U.K“ ir kontaktai, kuriais vartotojas gali kreiptis, jei kas negerai su programėle ar paslauga.\n
-		\tb. Prieš renkantis patiekalus užsisakymui, pagrindinio meniu lango viršuje, centre, vartotojas turi pasirinkti buvimo vietą, kur užsakyti patiekalai turės būti pristatyti, pvz. Žalgirio arena.\n
-		\tc. Pagrindiniame meniu lange matomos valgių pasirinkimo skiltys: „Akcijos“, „Naujienos“, „Kategorijos“. „Akcijos“ skiltyje rodomi patiekalai su akcija, „Naujienos“ skiltyje rodomi naujausi patiekalai, „Kategorijos“ skiltyje rodomos kategorijos pagal kurias lengviau rasti norimą patiekalą, pvz. blynai, gėrimai, užkandžiai.\n
-		\td. Pagrindinio meniu lango apačioje yra mygtukas pakviesti draugą atsisiųsti ir prisiregistruoti prie programėlės.\n
-	3. Pasirinkus ir paspaudus ant kokios kategorijos, atidaromas smulkesnis meniu. Vartotojui norint išeiti iš smulkesnio meniu ir grįžti į pagrindinį meniu reikia paspausti atgal rodyklę lango viršutiniame kairiajame kampe.\n
-	4. Smulkesniajame meniu vartotojas gali pasirinkti norimus patiekalus ir jų kiekius spausdamas pliuso arba minuso ženklą puslapio dešinėje. Lengviau susirinkti norimus patiekalus galima naudojant filtrą. Filtras atidaromas paspaudžiant mygtuką smulkesniojo meniu viršutiniame dešiniajame kampe.\n
-	5. Į krepšelį galima nueiti spaudžiant krepšelio ženklą pagrindinio meniu viršutiniame dešiniajame kampe arba spaudžiant ant „Mano krepšelis“ skilties nustatymų lange. Krepšelyje galima padidinti ar sumažinti pasirinktų patiekalų kiekius ir pašalinti nenorimus. Norėdamas pirkti pasirinktą krepšelį, vartotojas turi paspausti mygtuką „Tęsti“, kuris yra po „Viso“ sumos. Tada, atsidarys apmokėjimo langas.\n
-	6. Apmokėjimo lange vartotojas turi suvesti savo kontaktinę informaciją – vardą, pavardę ir telefono numerį.\n
-	7. Po kontaktinių duomenų įvedimo sekančiame apmokėjimo lange reikia pasirinkti pristatymo vietą (pvz. Žalgirio arenos 107 sektoriaus 10 eilė, 4 vieta). Atsidariusiame naujame lange rodoma arena, kur galima pasirinkti sektorių, paspaudus toliau atsidaro vietos pasirinkimas, kur matomos galimos vietos.\n
-	8. Pasirinkus pristatymo vietą ir paspaudus mygtuką „Tęsti“, atsidaro naujas langas, kuriame galima pasirinkti mokėjimo būdą. Tarp mokėjimo langą galima naviguoti, t.y. grįžti į krepšelio langą, paspaudžiant „x“ ženklą.\n
-	9. Po kontaktinės informacijos įvedimo reikia nurodyti, pridėti arba pasirinkti, kortelę, su kuria bus mokama už užsakymą.\n
-	10. Paskutinis užsakymo žingsnis – užsakymo patvirtinimas. Užsakymo patvirtinimo lange bus matyti detalės, vaizduojančios krepšelį ir pristatymo vietą. Užsakymui patvirtinti vartotojas turi spausti mygtuką „Užsakyti“, kas išmes patvirtinimo langą, kuriame matosi vieta, užsakymo numeris ir t.t. Paspaudus ant mygtuką „Stebėti užsakymo statusą“ rodomas statuso langas, kuriame galima sekti patvirtinto užsakymo eigą.\n
-    </string>
+    <string name="naudojimo_taisykleslt">1. Norėdamas naudotis programėlės teikiamomis paslaugomis vartotojas turi būti susikūręs paskyrą ir\n
+prie jos prisijungęs. Paskyros sukūrimui reikalingi duomenys yra asmens elektroninis paštas,\n
+telefono numeris ir slaptažodis. Prisijungdamas vartotojas turi įvesti tik savo el. paštą ir slaptažodį.\n
+2. Vartotojui prisijungus prie paskyros yra atidaromas veiksmų sąrašas, iš kurio vartotojas gali/\n
+išsirinkti reikiamą. Pagrindiniame lange kairiajame kampe yra nukreipiantis ženklas į nustatymų\n
+skiltį.\n
+\ta. Nustatymų langas turi kelias skiltis. Nustatymų lango viršuje yra vieta vartotojo nuotraukai\n
+ir vardui, pavardei. Žemiau, yra skiltys „Mano profilis“, „Mėgstamiausi“, „Mano krepšelis“,\n
+„Mano užsakymai“, „Nuolaidos“. Nustatymų lango apačioje yra „D.U.K“ ir kontaktai,\n
+kuriais vartotojas gali kreiptis, jei atsirado nesklandumų su programėle ar paslauga.\n
+\tb. Prieš pasirinkdamas patiekalus užsisakymui, pagrindinio meniu lango viršuje, centre,\n
+vartotojas turi pasirinkti buvimo vietą, į kurią užsakyti patiekalai turės būti pristatomi, pvz.\n
+Žalgirio arena.\n
+\tc. Pagrindiniame meniu lange matomos valgių pasirinkimo skiltys: „Akcijos“, „Naujienos“,\n
+„Kategorijos“. „Akcijos“ skiltyje rodomi patiekalai su akcija, „Naujienos“ skiltyje rodomi\n
+naujausi patiekalai, „Kategorijos“ skiltyje rodomos kategorijos pagal kurias lengviau rasti\n
+norimą patiekalą, pvz. blynai, gėrimai, užkandžiai.\n
+\td. Pagrindiniame meniu, lango apačioje, yra funkcija pakviesti draugą atsisiųsti ir\n
+prisiregistruoti prie programėlės.\n
+3. Pasirinkus ir paspaudus ant tam tikros kategorijos, atidaromas smulkesnis pasirinkimų sąrašas.\n
+Vartotojas norėdamas išeiti iš smulkesnio pasirinkimų sąrašo ir grįžti į pagrindinį sąrašą turi\n
+paspausti rodyklę „atgal“ lango viršutiniame kairiajame kampe.\n
+4. Smulkesniajame pasirinkimų sąraše vartotojas gali rinktis norimus patiekalus ir jų kiekius\n
+spausdamas pliuso arba minuso ženklą puslapio dešinėje. Tam, kad norimo patiekalo užsakymas\n
+įvyktų greičiau yra funkcija „filtras“, kurio pagalba vartotojas gali sukonkretinti paiešką . Filtras\n
+atidaromas paspaudus mygtuką smulkesniajame pasirinkimų sąrašo viršutiniame dešiniajame kampe.\n
+5. Nukreipiamas į krepšelį vyksta paspaudus krepšelio ženklą pagrindinio meniu viršutiniame\n
+dešiniajame kampe arba paspaudus „Mano krepšelis“ skiltį nustatymų lange. Krepšelyje įtrauktų\n
+patiekalų kiekius galima padidinti ar sumažinti ir pašalinti nenorimus. Vartotojas norėdamas pirkti\n
+pasirinktą krepšelį turi paspausti mygtuką „Tęsti“, kuris yra po „Viso“ sumos. Tuomet yra\n
+atidaromas apmokėjimo langas.\n
+6. Apmokėjimo lange vartotojas turi suvesti savo kontaktinę informaciją – vardą, pavardę ir telefono\n
+numerį.\n
+7. Po kontaktinių duomenų įvedimo kitame apmokėjimo lange svarbu pasirinkti pristatymo vietą (pvz.\n
+Žalgirio arenos 107 sektoriaus 10 eilė, 4 vieta). Atsidariusiame naujame lange rodoma arena, kurioje\n
+galima pasirinkti norimą sektorių, paspaudus toliau atsidaro vietos pasirinkimas, kur matomos\n
+laisvos vietos.\n
+8. Pasirinkus pristatymo vietą ir paspaudus mygtuką „Tęsti“, atsidaro naujas langas, kuriame galima\n
+pasirinkti mokėjimo būdą. Tarp mokėjimo langų galima naviguoti, t.y. grįžti į krepšelio langą,\n
+paspaudžiant „x“ ženklą.\n
+9. Kai kontaktinė informacija įvedama reikia nurodyti, pridėti arba pasirinkti, kortelę, kuria bus\n
+mokama už užsakymą.\n
+10. Paskutinis užsakymo žingsnis – užsakymo patvirtinimas. Užsakymo patvirtinimo lange bus matomos\n
+detalės, vaizduojančios krepšelį ir pristatymo vietą. Tam, kad užsakymas būtų patvirtintas vartotojas\n
+turi spausti mygtuką „Užsakyti“, tuomet atsivers patvirtinimo langas, kuriame bus matoma\n
+pristatymo vieta, užsakymo numeris ir t.t. Paspaudus mygtuką „Stebėti užsakymo statusą“ bus\n
+rodomas statuso langas, kuriame vartotojas galės sekti patvirtinto užsakymo eigą.</string>
     <string name="filtras">Filtras</string>
     <string name="perkamiausios_prek_s">Perkamiausios prekės</string>
     <string name="pigiausios_vir_uje">Pigiausios viršuje</string>
     <string name="brangiausios_vir_uje">Brangiausios viršuje</string>
     <string name="gaminimo_laikas">Gaminimo laikas</string>
     <string name="geriausiai_vertintos">Geriausiai įvertintos</string>
-    <string name="naudojimo_taisykles_en">1. To use the services provided by the app, the user must have created an account and logged into it. Registration requires entering a user’s email, phone number and password. When logging in, the user only needs to enter his email and password.\n
-        2. After logging in, the main menu is opened. In the main menu, the user may click on the icon in the upper left corner of the window to open the settings.\n
-        \ta. The settings window has several sections. At the top of the settings windows, there is a place for the user’s photo and name. Below, there are sections “My profile”, “Favorites”, “My cart”, “My orders”, “Discounts”. At the bottom of the settings window is the “FAQ” and contacts that the user may use if there is something wrong with the app or the service.\n
-        \tb. Before choosing dishes for ordering, the user must select the location of delivery at the center of the top of the main menu window, e.g., Žalgiris Arena.\n
-        \tc. In the main menu window, there are multiple sections such as “Promotions”, “News”, “Categories”. The “Promotions” section shows dishes with a discount, the “News” section shows the latest dishes, the “Category” section shows categories that make it easier to find the desired dish, e.g., pancakes, drinks, snacks.\n
-        \td. At the bottom of the main menu window is a button to invite a friend to download and register for the app.\n
-        3. After selecting and clicking on a category, a sub-menu opens. The user needs to press the back arrow in the upper left corner of the window to exit the sub-menu and return to the main menu.\n
-        4. In the sub-menu, the user may select the desired dishes and their quantities by pressing the plus and minus signs on the right side of the page near each dish. It is easier to choose the wanted dishes using a filter. The filter is opened by pressing the icon in the upper right corner of the sub- menu.\n
-        5. The user may enter the cart by clicking on the cart icon in the upper right corner of the main menu or by clicking on the “My cart” icon in the settings window. To purchase the selected cart, the user must click on the “Continue” button which is located below the “Total” amount. Then, the payment window will open.\n
-        6. In the payment window, the user must enter his contact information – name, surname, and phone number.\n
-        7. After entering the user’s contact data, in the next payment window, the user needs to choose a concrete place of delivery. The new window that opens shows the arena where the user must select a sector. Upon clicking on the chosen sector and opening the location selection, the user must choose between available seats. The final chosen location format will be something like Žalgiris Arena, Sector 107, Row 10, Seat 4. 8. After choosing the place of delivery and pressing the “Continue” button, a new window opens where the user must choose the payment method. The user may navigate between the payment windows, i.e., return to the cart window, by pressing the “x” sign.\n
-        9. After entering the contact information, it is necessary to specify, add or select the card that will be used to pay for the order.\n
-        10. The last step of the order is order confirmation. In the order confirmation window, there will be details representing the cart and delivery location. To confirm the order, the user must press the “Order” button which will cause a confirmation window showing the location, order number etc. to pop up. After clicking on the “Monitor order status” button, a status window is displayed where the user can follow the progress of the confirmed order.\n
-    </string>
+    <string name="naudojimo_taisykles_en">1. Using the app requires the user to create an account and log in. Registration requires\n
+entering an email address, phone number, and password. Once logged in, the user only\n
+needs to enter his email address and password.\n
+2. The user opens the main menu after logging in. The settings can be opened by clicking the\n
+icon in the upper left corner of the window.\n
+\ta. The settings window has several sections. At the top of the settings window, you can\n
+enter your photo and name. Then, you can choose from sections such as &quot;My\n
+profile&quot;, &quot;Favorite&quot;, &quot;My cart&quot;, &quot;My orders&quot;, and &quot;Discounts&quot;. If there is a problem\n
+with the app or service, the user can refer to the &quot;FAQ&quot; and contact information at\n
+the bottom of the settings window.\n
+\tb. The user must select the location of delivery at the top of the main menu window\n
+before choosing dishes to order.\n
+\tc. There are multiple sections in the main menu window, including &quot;Promotions&quot;,\n
+&quot;News&quot;, and &quot;Categories&quot;. The “Promotions” section shows dishes with a discount,\n
+the “News” section shows the latest dishes, and the “Category” section shows\n
+categories that make it easier to find the desired dish, e.g., pancakes, drinks, snacks.\n
+\td. There is a button at the bottom of the main menu window that lets you invite a friend\n
+to register and download.\n
+3. To return to the main menu after selecting and clicking a category, the user must click the\n
+back arrow in the upper left corner of the window.\n
+4. On the right side of the page, near each dish, the user can select the desired dishes and their\n
+quantities by pressing the plus and minus signs. Pressing the icon in the upper right corner\n
+of the sub-menu to open the filter makes it easier to select the food you want.\n
+5. A user can access the cart from the main menu by clicking the cart icon or by clicking &quot;My\n
+cart&quot; in the settings window. To purchase the selected cart, the user must click the\n
+&quot;Continue&quot; button located below the &quot;Total&quot; amount. As soon as the payment window has\n
+been opened, the user can complete their transaction.\n
+6. To complete the payment process, the user must provide his personal information, including\n
+his name, surname, and telephone number.\n
+7. After entering the user’s contact data, the user needs to choose a concrete location of\n
+delivery in the next payment window. The new window that opens presents the arena, where\n
+the user is required to select a sector. Upon selecting the sector of interest and opening the\n
+location selection screen, the user must select the available seats. A final location format\n
+will be something like Zalgiris Arena, Sector 107, Row 10, Seat 4.\n
+8. The user will be directed to a new window following the selection of the delivery address\n
+and the click of the &quot;Continue&quot; button. Following selection of the delivery address, a\n
+payment method selection window will appear. The user can navigate between the payment\n
+windows by clicking the &quot;x&quot; symbol to return to the cart window.\n
+9. Following the entry of the contact information, the user must specify, add, or select the type\n
+of card that will be used to complete the purchase.\n
+10. A final step in placing the order is to confirm the order. An order confirmation window will\n
+appear at the end of the order process. It will include details regarding the cart and delivery\n
+address of the order. To confirm the order, the user must press the &quot;Order&quot; button, which\n
+will display a confirmation window with information regarding the location, the order\n
+number, etc. When the &quot;Monitor order status&quot; button is clicked, a status window is displayed\n
+where the user can track the order\'s progress.</string>
     <string name="pirkimo_taisykles_lt">1. Bendrosios nuostatos\n
-        \t1.1. Šios prekių pirkimo-pardavimo taisyklės (toliau – „Taisyklės“) nustato bendrąsias naudojimo šia programėle sąlygas. Taisyklės yra taikomos, kai Pirkėjas renkasi, užsako ir perka programėlėje siūlomas prekes.\n
-        \t1.2. Programėlė yra skirta maisto užsakymui, orientuota į užsakyto maisto pristatymą Žalgirio arenoje.\n
-        \t1.3. Pirkėju šiose Taisyklėse yra bet kuris asmuo, perkantis maistą šia programėle. Naudotis programėle ir joje pirkti turi teisę asmenys virš 14 metų.\n
-        \t1.4. Pirkėjui nesuteikiama teisė pateikti maisto užsakymo, jeigu jis nėra susipažinęs su Taisyklėmis ir (ar) su jomis nesutinka.\n
-        2. Registracija\n
-        \t2.1. Pirkėjas, norėdamas naudotis šia programėle ir pirkti joje siūlomas prekes, privalo užsiregistruoti pateikdamas šiuos Pirkėjo asmens duomenis: elektroninį paštą, telefono numerį ir slaptažodį.\n
-        \t2.2. Pirkėjas yra atsakingas, kad registracijos duomenys būtų tikslūs, teisingi ir išsamūs. Pirkėjas turi teisę bet kuriuo momentu nevaržomai keisti registracijos duomenis.\n
-        \t3. Prekių kainos, apmokėjimo tvarka, komplektavimas, pristatymas, grąžinimas\n
-        \t3.1. Prekių kainos yra eurais su PVM. Prekės Pirkėjui parduodamos kainomis, galiojančiomis užsakymo pateikimo metu.\n
-        \t3.2. Naudodamasis šia programėlė Pirkėjas įsipareigoja užsakymo metu nurodyti tikslią prekių pristatymo vietą.\n
-        \t3.3. Pirkėjas atsiskaito už prekes vienu iš šių būdų: Apmokėjimas elektronine bankininkyste, Apmokėjimas užsakymo metu naudojantis mokėjimo kortelėmis, Apmokėjimas grynaisiais pinigais, Apmokėjimas naudojantis mokėjimo kortelėmis.\n
-        \t3.4. Patvirtindamas užsakymą Pirkėjas įsipareigoja priimti užsakytas prekes ir už jas sumokėti sutartą kainą.\n
-        \t3.5. PVM sąskaitą faktūrą Tarpininkas išrašo ir Pirkėjui pateikia Pirkėjo Registracijos anketoje nurodytu elektroniniu paštu per 3 (tris) darbo dienas po prekių pristatymo.\n
-        \t3.6. Pirkėjui priėmus Tarpininko pristatytas prekes, jos negali būti grąžinamos.
-    </string>
+\t1.1. Šios prekių pirkimo-pardavimo taisyklės (toliau – „Taisyklės“) nustato bendrąsias\n
+naudojimo šia programėle sąlygas. Taisyklės yra taikomos, kai Pirkėjas renkasi, užsako ir\n
+perka programėlėje siūlomas prekes.\n
+\t1.2. Programėlė yra pritaikyta maisto užsakymui ir pristatymui į Žalgirio areną.\n
+\t1.3. Pirkėju šiose Taisyklėse yra bet kuris asmuo, užsakantis maistą šia programėle. Naudotis\n
+programėle ir jos pagalba pirkti turi teisę asmenys nuo14 metų.\n
+\t1.4. Pirkėjui nesuteikiama teisė pateikti užsakymo, jeigu jis nėra susipažinęs su Taisyklėmis ir\n
+(ar) su jomis nesutinka.\n
+2. Registracija\n
+\t2.1. Pirkėjas, norėdamas naudotis šia programėle ir užsakyti joje siūlomas prekes, privalo\n
+užsiregistruoti pateikdamas šiuos Pirkėjo asmens duomenis: elektroninį paštą, telefono\n
+numerį ir slaptažodį.\n
+\t2.2. Pirkėjas yra atsakingas, kad registracijos duomenys būtų tikslūs, teisingi ir išsamūs.\n
+Pirkėjas turi teisę bet kuriuo momentu nevaržomai keisti registracijos duomenis.\n
+3. Prekių kainos, apmokėjimo tvarka, komplektavimas, pristatymas, grąžinimas\n
+\t3.1. Prekių kainos yra nurodytos eurais su PVM. Prekės parduodamos Pirkėjui kainomis,\n
+galiojančiomis užsakymo pateikimo metu.\n
+\t3.2. Naudodamasis šia programėle Pirkėjas įsipareigoja užsakymo metu nurodyti tikslią prekių\n
+pristatymo vietą.\n
+\t3.3. Pirkėjas atsiskaito už prekes vienu iš šių būdų: Apmokėjimas elektronine bankininkyste,\n
+Apmokėjimas užsakymo metu naudojantis mokėjimo kortelėmis, Apmokėjimas grynaisiais\n
+pinigais, Apmokėjimas naudojantis mokėjimo kortelėmis pristatymo metu.\n
+\t3.4. Patvirtindamas užsakymą Pirkėjas įsipareigoja priimti užsakytas prekes ir už jas sumokėti\n
+užsakymo galutinę kainą.\n
+\t3.5. PVM sąskaitą faktūrą Tarpininkas išrašo ir Pirkėjui pateikia Pirkėjo Registracijos anketoje\n
+nurodytu elektroniniu paštu per 3 (tris) darbo dienas po prekių pristatymo.\n
+\t3.6. Pirkėjui priėmus Tarpininko pristatytas prekes, jos negali būti grąžinamos.</string>
     <string name="buying_rules_en">1. General provisions\n
-        \t1.1. These rules for the purchase and sale of the goods (hereinafter referred to as “the rules”) determine the general conditions of use of this application. The rules are applied when the customer chooses, orders, and buys the goods offered in the app.\n
-        \t1.2. This app is intended for ordering food, focused on the delivery of the ordered food in the Žalgirio arena\n
-        \t1.3. A customer in these Rules is any person who orders food through this app. People over 14 years of age have the right to use the app and make purchases through it.\n
-        \t1.4. The customer is not given the right to place an order if he is not familiar with the Rules and/or doesn’t agree with them.\n
-        2. Registration\n
-        \t2.1. To use this application and its services, the customer must register by providing the following personal data: email, phone number and password.\n
-        \t2.2. The customer is responsible for keeping the registration details accurate, correct, and complete. The customer has the right to freely change the registration data at any time.\n
-        3. Product prices, payment procedures, order assembly, delivery, return\n
-        \t3.1. Product prices are in euros with VAT. Goods are sold to the customer at the prices valid at the time of placing the order.\n
-        \t3.2. By using this app, the customer commits to specify a correct and exact place of delivery of the goods during the order.\n
-        \t3.3. The customer pays for the order in one of the following ways: Payment by electronic banking, Payment by payment cards at the time of the ordering, Payment by cash, Payment by payment cards at the time of delivery.\n
-        \t3.4. By confirming the order, the customer commits to being in the agreed upon place and time of the delivery to accept the ordered goods and paying the agreed price for them.\n
-        \t3.5. The VAT invoice is drawn up by the Intermediary and submitted to the customer by the email specified in the customer’s registration form within 3 (three) working days after the delivery of the goods.\n
-        \t3.6. After the customer accepts the goods delivered by the Intermediary, they cannot be returned.
-    </string>
+\t1.1. In this application, the general conditions of use are determined by the rules for the\n
+purchase and sale of goods (hereinafter "the rules"). A customer\'s choices, orders, and\n
+purchases of goods within the app are governed by the rules.\n
+\t1.2. This app allows you to order food and have it delivered to Zalgiris Arena. A customer in\n
+these Rules is any person who orders food through this app. The app can be used by anyone\n
+over the age of 14 and purchases can be made through it.\n
+\t1.3. A customer who is unfamiliar with the Rules and/or does not agree with them will not be\n
+allowed to place an order.\n
+2. Registration\n
+\t2.1. Registration for this application and its services requires the customer to provide their email\n
+address, phone number, and password. The customer is responsible for keeping the\n
+registration details accurate, correct, and complete. Registration data can be edited by the\n
+customer at any time.\n
+3. Prices, payment procedures, assembly of orders, delivery, and returns\n
+\t3.1. The prices of the products are in euros with VAT included in the price. The customer is\n
+responsible for paying the prices that are in effect at the time of placing the order.\n
+\t3.2. By using this app, the customer commits to specify a correct and exact place of delivery of\n
+the goods during the order.\n
+\t3.3. The customer pays for the order in one of the following ways: Payment by electronic\n
+banking, Payment by payment cards at the time of the ordering, Payment by cash, Payment\n
+by payment cards at the time of delivery.\n
+\t3.4. By confirming the order, the customer commits to being in the agreed upon place and time\n
+of the delivery to accept the ordered goods and paying the agreed price for them.\n
+\t3.5. The VAT invoice is drawn up by the Intermediary and submitted to the customer by the\n
+email specified in the customer’s registration form within 3 (three) working days after the\n
+delivery of the goods.\n
+\t3.6. After the customer receives the order delivered by the Intermediary, they cannot be\n
+returned.</string>
     <string name="i_saugoti">Išsaugoti</string>
     <string name="mano_profilis">Mano profilis</string>
     <string name="information">Informacija</string>
